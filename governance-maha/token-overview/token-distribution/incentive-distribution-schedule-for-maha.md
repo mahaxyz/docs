@@ -4,7 +4,7 @@
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-07-11 at 12.47.08 AM.png" alt=""><figcaption></figcaption></figure>
 
-_\*\*the above image is in low resolution. Replace it_&#x20;
+_\*\*the above image is in low resolution._
 
 * Total Supply: 10,000,000 MAHA
 * Seed: 500,000 MAHA
