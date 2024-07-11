@@ -2,24 +2,22 @@
 
 * [Welcome to MAHA](README.md)
 
-## Stablecoin ZAI
+## ZAI Stablecoin
 
-* [Overview](stablecoin-zai/overview.md)
-* [What is user-set interest rate?](stablecoin-zai/what-is-user-set-interest-rate/README.md)
-  * [Redemptions with User-set Interest Rate](stablecoin-zai/what-is-user-set-interest-rate/redemptions-with-user-set-interest-rate.md)
-* [Peg Mechanism](stablecoin-zai/peg-mechanism.md)
-* [Collateralization Mechanism](stablecoin-zai/collateralization-mechanism.md)
-* [Stability Pool and Liquidation](stablecoin-zai/stability-pool-and-liquidation.md)
-* [Recovery Mode](stablecoin-zai/recovery-mode.md)
-* [Supported Collateral](stablecoin-zai/supported-collateral.md)
-* [Fees](stablecoin-zai/fees.md)
-* [Risk Management](stablecoin-zai/risk-management.md)
-* [Earn Rewards by Staking ZAI (USDz)](stablecoin-zai/earn-rewards-by-staking-zai-usdz.md)
+* [Overview](zai-stablecoin/overview.md)
+* [Peg Mechanism](zai-stablecoin/peg-mechanism.md)
+* [Collateralization Mechanism](zai-stablecoin/collateralization-mechanism.md)
+* [Stability Pool and Liquidation](zai-stablecoin/stability-pool-and-liquidation.md)
+* [Recovery Mode](zai-stablecoin/recovery-mode.md)
+* [Supported Collateral](zai-stablecoin/supported-collateral.md)
+* [Fees](zai-stablecoin/fees.md)
+* [Risk Management](zai-stablecoin/risk-management.md)
+* [Earn Rewards by Staking ZAI (USDz)](zai-stablecoin/earn-rewards-by-staking-zai-usdz.md)
 
 ## Governance
 
 * [Introduction](governance/introduction.md)
-* [The $MAHA Token](governance/the-usdmaha-token.md)
+* [The MAHA Token](governance/the-maha-token.md)
 * [Earning MAHA](governance/earning-maha.md)
 * [Token Distribution](governance/token-distribution.md)
 * [Incentive Distribution Schedule for MAHA](governance/incentive-distribution-schedule-for-maha.md)
