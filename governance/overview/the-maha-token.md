@@ -1,4 +1,8 @@
-# The $MAHA Token
+---
+description: This section briefly summaries the MAHA token.
+---
+
+# The MAHA Token
 
 $MAHA is the governance token of the MAHA protocol, empowering users to participate in the decision-making process. Since the inception of MahaDAO in January 2021, all major decisions have been governed by users who have locked their tokens for governance participation.
 
@@ -15,7 +19,7 @@ Read the ZAI proposal here: [Introducing a Brand New MAHA](https://discuss.mahad
 
 #### $MAHA Governance Overview
 
-<figure><img src="../.gitbook/assets/Governance Overview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Governance Overview.png" alt=""><figcaption></figcaption></figure>
 
 * **MAHA NFT Locks**:
   * Users lock their $MAHA tokens in the form of NFTs. Each locked NFT represents a vote in the governance process. Tutoriial here.

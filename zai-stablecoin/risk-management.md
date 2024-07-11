@@ -59,6 +59,6 @@ Risk parameters mitigate market risks associated with the collateral. Each ZAI m
 
 Supply caps limit the maximum amount of an asset supplied to the protocol, reducing exposure to riskier assets. Caps are based on on-chain liquidity and the total volume of collateral assets.
 
-For detailed information on our security measures and smart contract audits, please visit the [Security](notion://www.notion.so/akanshajain/Stablecoin-ZAI-5cf5e268def6459b9fb8771371f88bb2#security) section.
+For detailed information on our security measures and smart contract audits, please visit the Security section.
 
 By understanding and managing these risks, the ZAI protocol aims to provide a secure and stable environment for all users

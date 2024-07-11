@@ -1,9 +1,12 @@
 ---
+description: >-
+  The stability pool acts as a strong mechanism to substantially support the
+  protocol by providing incentives to pooled users
 layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -19,6 +22,12 @@ Liquidations and stability pools are crucial components of MAHA ecosystem, it en
 ## What is stability pool?
 
 The stability pool is a liquidity pool that maintains the solvency of the protocol by ensuring that the total supply of stablecoin ZAI is always backed by collateral. They provide the necessary liquidity to cover the debt from liquidated loans. Stability pools are funded by users, known as stability providers, who deposit ZAI into the pool. Over time, these providers see a proportional reduction in their ZAI deposits but gain a proportional share of the liquidated collateral.
+
+{% hint style="info" %}
+The stability pool is currently deployed at:
+
+_TBD_
+{% endhint %}
 
 ## **Liquidations**
 

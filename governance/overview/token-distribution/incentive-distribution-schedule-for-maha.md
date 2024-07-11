@@ -2,7 +2,7 @@
 
 ## Token Allocation Overview
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-11 at 12.47.08 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-11 at 12.47.08 AM.png" alt=""><figcaption></figcaption></figure>
 
 _\*\*the above image is in low resolution. Replace it_&#x20;
 

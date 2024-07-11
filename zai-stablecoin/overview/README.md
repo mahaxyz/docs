@@ -20,7 +20,7 @@ To address this gap, MAHA introduces $ZAI, an LRT-backed stablecoin that allows 
 
 ### How Does ZAI (USDz) Minting Work?
 
-\[\[how does it work from the wesite: image]
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-12 at 12.26.42 AM.png" alt=""><figcaption></figcaption></figure>
 
 MAHA allows users to leverage their Liquid Restaking Tokens (LRTs) to mint ZAI (USDz). To begin, users must own LRTs such as Renzo Restaked ETH (ezETH), Kelp DAO Restaked ETH (rsETH), or Wrapped eETH (weETH). These LRTs act as collateral for borrowing USDz at a specific collateral ratio.
 
@@ -32,9 +32,12 @@ This process enables users to unlock the potential of their assets and participa
 
 ### Price Oracles
 
-\<TBD>
+{% hint style="info" %}
+_Coming soon..._
+{% endhint %}
 
 #### Important sections
 
-* Supported Collaterals
-* DeFi Opportunities.
+{% content-ref url="supported-collateral.md" %}
+[supported-collateral.md](supported-collateral.md)
+{% endcontent-ref %}
