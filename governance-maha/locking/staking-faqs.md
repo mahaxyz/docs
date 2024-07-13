@@ -1,41 +1,6 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
-# MAHAX
-
-MAHAX represents the voting power a user gets when they lock their MAHA tokens. It is designed to decentralize voting power, giving smaller holders the ability to have significant influence by locking their tokens for longer periods.
-
-#### How is MAHAX calculated?
-
-MAHAX is calculated based on two factors:
-
-**Amount of MAHA locked**
-
-**Duration of the lock period**
+# Staking FAQs
 
 
-
-For example, locking 1000 MAHA yields:
-
-* 4 years: 1000 MAHAX
-* 1 year: 250 MAHAX
-* 6 months: 127.4 MAHAX
-* 3 months: 63.7 MAHAX
-* 1 month: 21.23 MAHAX
-* 1 week: 4.79 MAHAX
-
-## Staking FAQs
 
 **Can I make multiple locks using a single wallet?**&#x20;
 

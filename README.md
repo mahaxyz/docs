@@ -1,13 +1,24 @@
 ---
-description: >-
-  We enable the functionalities of Liquid Restaking Tokens (LRTs) by integrating
-  them into various DeFi applications using our governance token $MAHA and the
-  LRT stablecoin ZAI ($USDz).
+description: MAHA powers ZAI, the stable money of the Ethermind
+cover: .gitbook/assets/1500x500.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Welcome to MAHA
-
-## What is MAHA?
+# Welcome
 
 MAHA (previously known as MahaDAO) is a community-powered decentralized organization. Our mission is to create a stable and thriving economy through innovative financial products, notably our 0% interest Liquid Restaking-based stablecoin, ZAI (USDz).
 

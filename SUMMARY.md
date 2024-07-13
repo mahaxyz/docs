@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to MAHA](README.md)
+* [Welcome](README.md)
 
 ## Stablecoin: ZAI
 
@@ -21,7 +21,10 @@
   * [Earning MAHA](governance-maha/token-overview/earning-maha.md)
   * [Token Distribution](governance-maha/token-overview/token-distribution/README.md)
     * [Incentive Distribution Schedule for MAHA](governance-maha/token-overview/token-distribution/incentive-distribution-schedule-for-maha.md)
-* [MAHAX](governance-maha/mahax.md)
+* [Locking](governance-maha/locking/README.md)
+  * [What is MAHAX?](governance-maha/locking/what-is-mahax.md)
+  * [Staking](governance-maha/locking/staking.md)
+  * [Staking FAQs](governance-maha/locking/staking-faqs.md)
 * [Emission Voting](governance-maha/emission-voting.md)
 * [Discussion](http://discuss.maha.xyz/)
 * [Vote](https://vote.maha.xyz)
@@ -29,6 +32,7 @@
 ## Security
 
 * [Timelocked Multisig Admin](security/timelocked-multisig-admin.md)
+* [Insurance Fund](security/insurance-fund.md)
 
 ## External Links
 
@@ -39,3 +43,4 @@
 ## FAQs
 
 * [ZAI](faqs/zai.md)
+* [MAHA](faqs/maha.md)
