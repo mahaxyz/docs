@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Risks & Management
+# Risks
 
 Managing risk is essential for the stability and success of the ZAI protocol. Risks within the ZAI protocol are categorized into three main types:
 
@@ -60,3 +60,20 @@ Risk parameters mitigate market risks associated with the collateral. Each ZAI m
 Supply caps limit the maximum amount of an asset supplied to the protocol, reducing exposure to riskier assets. Caps are based on on-chain liquidity and the total volume of collateral assets.
 
 By understanding and managing these risks, the ZAI protocol aims to provide a secure and stable environment for all users
+
+
+
+#### **Collateralization**
+
+* **Full Collateralization:** Ensures that every minted ZAI is fully backed by an equivalent amount of stablecoins, maintaining the peg and providing security.
+* **Reserve Management:** The system manages the collateral reserves to ensure they remain sufficient and secure.
+
+#### **Governance and Oversight**
+
+* **Community Governance:** MAHA’s governance framework oversees the operation of the PSM and Direct Deposits.
+* **Risk Parameters:** Risk parameters, such as collateralization ratios and deposit caps, are determined and adjusted through community governance to manage systemic risk.
+
+#### **Security Measures**
+
+* **Regular Audits:** Regular audits and security assessments are conducted to safeguard the smart contracts and overall system integrity.
+* **Transparency:** Ensures transparency in operations and reserves.

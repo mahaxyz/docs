@@ -2,35 +2,34 @@
 
 * [Welcome](README.md)
 
-## Stablecoin: ZAI
+## ZAI Stablecoin
 
-* [Overview](stablecoin-zai/overview.md)
-* [Peg Mechanics](stablecoin-zai/peg-mechanics.md)
-* [Collateralization Mechanism](stablecoin-zai/collateralization-mechanism.md)
-* [Earn Rewards by Staking ZAI (USDz)](stablecoin-zai/earn-rewards-by-staking-zai-usdz.md)
-* [Stability Pool and Liquidation](stablecoin-zai/stability-pool-and-liquidation.md)
-* [Recovery Mode](stablecoin-zai/recovery-mode.md)
-* [Supported Collateral](stablecoin-zai/supported-collateral.md)
-* [Protocol Fees](stablecoin-zai/protocol-fees.md)
-* [Risks & Management](stablecoin-zai/risks-and-management.md)
+* [Overview](zai-stablecoin/overview.md)
+* [Peg Mechanics](zai-stablecoin/peg-mechanics.md)
+* [Liquidity Incentives](zai-stablecoin/liquidity-incentives.md)
+* [Peg Stablility Module](zai-stablecoin/peg-stablility-module.md)
+* [Direct Deposit Module](zai-stablecoin/direct-deposit-module.md)
+* [Use Cases](zai-stablecoin/use-cases.md)
+* [Risks](zai-stablecoin/risks.md)
 
-## Governance: MAHA
+## MAHA Governance
 
-* [Token Overview](governance-maha/token-overview/README.md)
-  * [The MAHA Token](governance-maha/token-overview/the-maha-token.md)
-  * [Earning MAHA](governance-maha/token-overview/earning-maha.md)
-  * [Token Distribution](governance-maha/token-overview/token-distribution/README.md)
-    * [Incentive Distribution Schedule for MAHA](governance-maha/token-overview/token-distribution/incentive-distribution-schedule-for-maha.md)
-* [Locking](governance-maha/locking/README.md)
-  * [What is MAHAX?](governance-maha/locking/what-is-mahax.md)
-  * [Staking](governance-maha/locking/staking.md)
-  * [Staking FAQs](governance-maha/locking/staking-faqs.md)
-* [Emission Voting](governance-maha/emission-voting.md)
+* [Overview](maha-governance/overview.md)
+* [Revenue Share](maha-governance/revenue-share.md)
+* [The MAHA Token](maha-governance/the-maha-token.md)
+* [Earning MAHA](maha-governance/earning-maha.md)
+* [Token Distribution](maha-governance/token-distribution/README.md)
+  * [Incentive Distribution Schedule for MAHA](maha-governance/token-distribution/incentive-distribution-schedule-for-maha.md)
+* [Locking](maha-governance/locking/README.md)
+  * [What is MAHAX?](maha-governance/locking/what-is-mahax.md)
+  * [Staking](maha-governance/locking/staking.md)
+  * [Staking FAQs](maha-governance/locking/staking-faqs.md)
 * [Discussion](http://discuss.maha.xyz/)
 * [Vote](https://vote.maha.xyz)
 
 ## Security
 
+* [Audits](security/audits.md)
 * [Timelocked Multisig Admin](security/timelocked-multisig-admin.md)
 * [Insurance Fund](security/insurance-fund.md)
 
@@ -39,8 +38,3 @@
 * [Twitter](https://x.com/mahaxyz\_)
 * [Website](https://maha.xyz/)
 * [Discord](https://discord.com/invite/mahadao)
-
-## FAQs
-
-* [ZAI](faqs/zai.md)
-* [MAHA](faqs/maha.md)
