@@ -10,13 +10,13 @@ The following is a rough roadmap for the ZAI stablecoin.&#x20;
 
 In this phase we focus on bootstrapping liquidity for ZAI and aim to grow the liquidity and the market valuation of ZAI to 500-1mn$.&#x20;
 
-Users can mint ZAI using stablecoins and will be incentivized with MAHA emissions. Accepted stablecoins will be USDC, DAI, USDe and ZAI will be minted using the [Peg Stability Module](zai-stablecoin/peg-mechanics/peg-stablility-module.md).
+Users can mint ZAI using stablecoins and will be incentivized with MAHA emissions. Accepted stablecoins will be USDC, DAI, USDe and ZAI will be minted using the [Peg Stability Module](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md).
 
 Once the protocol hits the 500k-1mn$ liquidity mark, we will move onto Phase 2.
 
 ## Phase 1: Early Lending Stage
 
-In this phase we will launch ZAI into a few lending markets using the [Direct Deposit Module](zai-stablecoin/peg-mechanics/direct-deposit-module.md) and accept a few assets as collateral to allow ZAI to be borrowed against them.&#x20;
+In this phase we will launch ZAI into a few lending markets using the [Direct Deposit Module](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md) and accept a few assets as collateral to allow ZAI to be borrowed against them.&#x20;
 
 Initially the protocol will limit the amount of ZAI minted to lending protocols to be no more than 50% of the available liquidity on DEXes. This is kept to ensure that there's strong peg support as borrowers sell their ZAI for leveraged exposure.
 

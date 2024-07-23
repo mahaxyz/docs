@@ -7,8 +7,8 @@
 
 * [Overview](zai-stablecoin/overview.md)
 * [Peg Mechanics](zai-stablecoin/peg-mechanics/README.md)
-  * [Peg Stablility Module](zai-stablecoin/peg-mechanics/peg-stablility-module.md)
-  * [Direct Deposit Module](zai-stablecoin/peg-mechanics/direct-deposit-module.md)
+  * [Peg Stablility Module (PSM)](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md)
+  * [Direct Deposit Module (DDM)](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md)
 * [Liquidity Incentives](zai-stablecoin/liquidity-incentives.md)
 * [Use Cases](zai-stablecoin/use-cases.md)
 
