@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Roadmap](roadmap.md)
 
 ## ZAI Stablecoin
 
@@ -16,6 +17,7 @@
 * [Overview](maha-governance/overview.md)
 * [Revenue Share](maha-governance/revenue-share.md)
 * [Earning MAHA](maha-governance/earning-maha.md)
+* [Points & Airdrop](maha-governance/points-and-airdrop.md)
 * [Token Distribution](maha-governance/token-distribution/README.md)
   * [Incentive Distribution Schedule for MAHA](maha-governance/token-distribution/incentive-distribution-schedule-for-maha.md)
 * [Locking](maha-governance/locking/README.md)
