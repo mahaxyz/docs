@@ -52,6 +52,6 @@ $MAHA is crucial to our ecosystem for **providing security and incentives**. It 
 
 $ZAI, or USDz, is a yield-bearing stablecoin designed to promote economic stability within the MAHA ecosystem.
 
-Users can borrow against liquid restaking tokens (LRTs) at a 0% interest rate, making it a cost-effective borrowing solution.
+Users can mint ZAI against stablecoins at a 0% interest rate or can borrow ZAI against liquid restaking tokens (LRTs) and other DeFi assets.&#x20;
 
 By leveraging LRTs, users can borrow $ZAI and earn real yield, contributing to the ecosystem's overall health and liquidity.
