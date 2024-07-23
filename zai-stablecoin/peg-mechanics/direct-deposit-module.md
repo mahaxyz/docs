@@ -1,10 +1,10 @@
+---
+description: This page explains the Direct Deposit Module (DDM) and how it works.
+---
+
 # Direct Deposit Module
 
 The ZAI Direct Deposit Module (DDM) integrates ZAI with various lending pools and other DeFi protocols. This allows the MAHA ecosystem to generate ZAI dynamically to manage liquidity and stabilize interest rates in lending pools. This capability ensures that borrowing costs remain predictable and that sufficient liquidity is always available.
-
-{% hint style="info" %}
-MAHA supports lending of Liquid Restaking Tokens (LRTs) to borrow ZAI at certain APY
-{% endhint %}
 
 **Example: Lending an LRT (Liquidity Restaking Token) and Borrowing ZAI**
 

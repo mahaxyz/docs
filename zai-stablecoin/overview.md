@@ -1,5 +1,16 @@
 ---
 description: ZAI - The Stable Money of the Ethermind.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Overview
@@ -16,7 +27,7 @@ ZAI aims to provide stability and liquidity without relying on traditional liqui
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-ZAI works in three simple with two kinds of users.
+ZAI mainly servers for two kinds of users.
 
 * **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
 * **Leverage Users:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.

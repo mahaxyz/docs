@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Token Overview
+# Overview
 
 $MAHA is the governance and utility token that regulates the $USDz - a yield bearing stablecoin, the MAHA community, and other products governed by the DAO.
 
@@ -26,16 +26,9 @@ This structure ensures that $MAHA and ZAI ($USDz) work in tandem.
 To learn more about MAHA's tokenomics, view [Token Distribution](token-distribution/).
 {% endhint %}
 
+### Key Features of $MAHA
+
+* **Limited Supply**: The $MAHA token has a capped supply, with no more than 10 million tokens ever to be circulated.
+* **Governance Participation**: Holders of $MAHA tokens can vote on a range of issues, including grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and various other programs.
+
 In the following few sections of the documentation, you will find various methods MAHA  to achieves decentralization, the philosophy behind MAHA, and ways in which you can become a contributor and join our journey.
-
-{% content-ref url="the-maha-token.md" %}
-[the-maha-token.md](the-maha-token.md)
-{% endcontent-ref %}
-
-{% content-ref url="earning-maha.md" %}
-[earning-maha.md](earning-maha.md)
-{% endcontent-ref %}
-
-{% content-ref url="token-distribution/" %}
-[token-distribution](token-distribution/)
-{% endcontent-ref %}

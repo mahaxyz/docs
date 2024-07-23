@@ -1,3 +1,7 @@
+---
+description: This page explains the various use-cases that users can use ZAI with
+---
+
 # Use Cases
 
 **Liquidity Provision:**

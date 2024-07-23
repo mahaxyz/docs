@@ -19,8 +19,6 @@ Read the ZAI proposal here: [Introducing a Brand New MAHA](https://discuss.mahad
 
 #### $MAHA Governance Overview
 
-<figure><img src="../.gitbook/assets/Governance Overview.png" alt=""><figcaption></figcaption></figure>
-
 * **MAHA NFT Locks**:
   * Users lock their $MAHA tokens in the form of NFTs. Each locked NFT represents a vote in the governance process. Tutoriial here.
 * **Staking & Delegation**:
