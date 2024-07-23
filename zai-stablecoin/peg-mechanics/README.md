@@ -21,8 +21,8 @@ The pegging mechanism of ZAI ($USDz) ensures that it maintains a 1:1 ratio with 
 
 There are two core modules that allow for ZAI to achieve stability and scale.
 
-* [The Peg Stability Module](peg-stablility-module-psm.md): Inspired by MakerDAO's PSM, the ZAI PSM allows users to mint/redeem ZAI for stablecoins at a 1:1 ratio. This ensures stability for ZAI at the 1$ price mark.
-* [The Direct Deposit Module](direct-deposit-module-ddm.md): Inspired by MakerDAO's DD module, the ZAI DD module allows the protocol to mint large amounts of ZAI into lending protocols allowing borrowers to take over-collateralized loans in ZAI generating interest for users.
+* [The Peg Stability Module](peg-stablility-module-psm.md): Focused on stability, the ZAI PSM allows users to mint/redeem ZAI for stablecoins at a 1:1 ratio. This ensures stability for ZAI at the 1$ price mark.
+* [The Direct Deposit Module](direct-deposit-module-ddm.md): Focused on growth, the ZAI DD module allows the protocol to mint large amounts of ZAI into lending protocols allowing borrowers to take over-collateralized loans in ZAI generating interest for users.
 
 ***
 

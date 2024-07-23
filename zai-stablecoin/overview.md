@@ -23,11 +23,13 @@ The ZAI Stablecoin is currently deployed at:&#x20;
 
 ZAI aims to provide stability and liquidity without relying on traditional liquidation mechanisms or stability pools. Users can mint ZAI against traditional stablecoins, such as USDC and DAI, and leverage ZAI in various DeFi protocols and liquidity pools.
 
-## How does ZAI work?
+## The ZAI Feedback Loop
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>The ZAI Feedback Loop</p></figcaption></figure>
 
-ZAI mainly servers for two kinds of users.
+To support the growth of the ZAI stablecoin without the need of heavy inflationary rewards from MAHA, a feedback loop between liquidity providers and borrowers is created ensuring that Liquidity providers who mint ZAI and provide liquidity to the protocol are paid by borrowers who borrow ZAI to leverage their yields.
+
+Which is why ZAI, mainly servers for two kinds of users.
 
 * **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
 * **Leverage Users:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
