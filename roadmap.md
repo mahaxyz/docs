@@ -22,7 +22,7 @@ Initially the protocol will limit the amount of ZAI minted to lending protocols 
 
 In this phase, the protocol starts to generate lending and borrowing revenue which starts to go back to LP stakers.
 
-This phase will last for 2-3 months and can get extended depending on the growth of the protocol
+This phase will last for 2-3 months and can get extended depending on the growth of the protocol. In this phase we will also stop any MAHA emissions used to bootstrap liquidity and focus solely on [revenue incentives](maha-governance/revenue-share.md) for liquidty incentives.
 
 ## Phase 2: MAHA Points
 
