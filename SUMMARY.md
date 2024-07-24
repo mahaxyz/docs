@@ -26,6 +26,7 @@
 
 ## Security
 
+* [Deployed Addresses](security/deployed-addresses.md)
 * [Audits](security/audits.md)
 * [Timelocked Multisig Admin](security/timelocked-multisig-admin.md)
 * [Insurance Fund](security/insurance-fund.md)
