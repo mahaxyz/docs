@@ -1,34 +1,31 @@
 ---
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+description: This section briefly summaries the MAHA token.
 ---
 
-# MAHA Overview
+# Token Overview
 
-$MAHA is the governance and utility token that regulates the $USDz - a yield bearing stablecoin, the MAHA community, and other products governed by the DAO.
+`MAHA` is the governance and utility token that regulates the `ARTH` valuecoin, the `MAHA` community, and other products governed by the DAO.
 
-$MAHA is integral to the MAHA ecosystem. It empowers users to participate in governance, earn rewards, and ensure the protocol's stability and growth.
+![](<../.gitbook/assets/image (1) (1) (2).png>)
 
-$MAHA token holders can vote to allocate MAHA towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and a host of other programs. The tokenomics are designed to promote self-sustaining community interest, developer engagement, and ecosystem adoption.
+`MAHA` token holders can vote to allocate `MAHA` towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and a host of other programs. The tokenomics are designed to promote self-sustaining community interest, developer engagement, and ecosystem adoption.
 
-This structure ensures that $MAHA and ZAI ($USDz) work in tandem.
+To learn more about `MAHA`'s tokenomics, view [Distribution & Inflation](distribution.md).
 
-{% hint style="info" %}
-To learn more about MAHA's tokenomics, view [Token Distribution](broken-reference).
-{% endhint %}
+{% embed url="https://youtu.be/TUk17M6Ww-I" %}
+Everything you need to know about MAHA.\
 
-### Key Features of $MAHA
+{% endembed %}
 
-* **Limited Supply**: The $MAHA token has a capped supply, with no more than 10 million tokens ever to be circulated.
-* **Governance Participation**: Holders of $MAHA tokens can vote on a range of issues, including grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and various other programs.
+## Contract Addresses
 
-In the following few sections of the documentation, you will find various methods MAHA  to achieves decentralization, the philosophy behind MAHA, and ways in which you can become a contributor and join our journey.
+The `MAHA` token is primarily deployed on the Ethereum chain with a bridged version of the token available on other EVM chains such as Polygon and Binance Smart Chain.
+
+Bridged version of the token can be accessed by using [AnySwap](https://anyswap.exchange/#/router).
+
+|                     | Address                                                                                                                |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Ethereum (Main)     | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)    |
+| Polygon             | [0xedd6ca8a4202d4a36611e2fff109648c4863ae19](https://polygonscan.com/token/0xedd6ca8a4202d4a36611e2fff109648c4863ae19) |
+| Binance Smart Chain | [0xce86f7fcd3b40791f63b86c3ea3b8b355ce2685b](https://bscscan.com/token/0xce86f7fcd3b40791f63b86c3ea3b8b355ce2685b)     |
+
