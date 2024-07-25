@@ -16,13 +16,13 @@
 ## Governance
 
 * [MAHA Overview](governance/maha-overview.md)
+* [Token Distribution](governance/incentive-distribution-schedule-for-maha.md)
 * [Revenue Share](governance/revenue-share.md)
 * [Earning MAHA](governance/earning-maha.md)
 * [Locking](governance/locking/README.md)
   * [What is MAHAX?](governance/locking/what-is-mahax.md)
   * [Staking](governance/locking/staking.md)
 * [Points & Airdrop 🎉](governance/points-and-airdrop.md)
-* [Token Distribution](governance/incentive-distribution-schedule-for-maha.md)
 
 ## Security
 
