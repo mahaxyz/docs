@@ -1,60 +1,33 @@
-# Incentive Distribution Schedule for MAHA
+---
+description: This section details about the distribution of the MAHA token over time.
+---
 
-## Token Allocation Overview
+# Distribution & Inflation
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-11 at 12.47.08 AM.png" alt=""><figcaption></figcaption></figure>
+The `MAHA` token is a limited supply token with no more than 10 million tokens that will ever be circulated. A vast majority of `MAHA` tokens have been allocated to community and ecosystem-related activities, which underpin MAHA's dedication to being a coin that is governed and controlled by its people.&#x20;
 
-_\*\*the above image is in low resolution._
+Furthermore, the supply of `MAHA` is stretched out across a period of 10 years to ensure that token holders are as distributed and decentralized as possible. No one entity should be capable of controlling more than 1% of the supply over the course of the next few years.
 
-* Total Supply: 10,000,000 MAHA
-* Seed: 500,000 MAHA
-* Private Sale: 1,300,000 MAHA
-* IDO: 208,333 MAHA
-* Uni Liquidity: 133,928 MAHA
-* Market Maker: 69,071 MAHA
-* Core Team: 700,000 MAHA
-* Advisors: 300,000 MAHA
-* Ecosystem: 6,788,668 MAHA
-* 2% Inflation
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Over 67% of the MAHA token's supply is allocated towards community and growth related activities.</p></figcaption></figure>
 
-### **Cliff and Disbursement Periods:**
+On December 17th, 2020, MahaDAO conducted its very first private sale and IDO, releasing approximately 8% of the supply into circulation.
 
-* Seed: No cliff, 12-month disbursement
-* Private Sale: No cliff, 12-month disbursement
-* IDO: No cliff, immediate release
-* Uni Liquidity: No cliff, immediate release
-* Market Maker: No cliff, immediate release
-* Core Team: 12-month cliff, 36-month disbursement
-* Advisors: No cliff, 12-month disbursement
-* Ecosystem: No cliff, 119-month disbursement (infinity)
+## A 10-year Distribution Period
 
-### **Monthly Distribution (October 2020 - October 2032):**
+The `MAHA` token is unique in the fact that the token is gradually released into circulation over 10 years. This is done to ensure that the `MAHA` token's supply stays as evenly distributed as possible, keeping the entire protocol and the ecosystem secure from whale manipulation.&#x20;
 
-1. **October 2020 - November 2020:**
-   * Circulating Supply: 0 MAHA
-2. **December 2020:**
-   * Circulating Supply: 795,046 MAHA
-   * Disbursements: Seed (41,667 MAHA), Private Sale (260,000 MAHA), IDO (208,333 MAHA), Uni Liquidity (133,928 MAHA), Market Maker (69,071 MAHA), Advisors (25,000 MAHA), Ecosystem (57,048 MAHA)
-3. **January 2021 - November 2021:**
-   * Monthly Increase: 218,260 MAHA
-   * Disbursements: Seed (41,667 MAHA), Private Sale (94,545 MAHA), Advisors (25,000 MAHA), Ecosystem (57,048 MAHA)
-4. **December 2021:**
-   * Circulating Supply: 3,272,396 MAHA
-   * Disbursement: Advisors (19,444 MAHA), Ecosystem (57,048 MAHA)
-5. **January 2022 - December 2024:**
-   * Monthly Increase: 76,492 MAHA
-   * Disbursement: Advisors (19,444 MAHA), Ecosystem (57,048 MAHA)
-6. **January 2025 - December 2028:**
-   * Monthly Increase: 76,492 MAHA
-   * Disbursement: Advisors (19,444 MAHA), Ecosystem (57,048 MAHA)
-7. **January 2029 - December 2030:**
-   * Monthly Increase: 76,492 MAHA
-   * Disbursement: Advisors (19,444 MAHA), Ecosystem (57,048 MAHA)
-8. **January 2031 - December 2032:**
-   * Monthly Increase: 76,492 MAHA
-   * Disbursement: Advisors (19,444 MAHA), Ecosystem (57,048 MAHA)
-9. **Post-December 2030:**
-   * Monthly Increase: 16,667 MAHA
-   * Total Circulating Supply: Gradual increase beyond 10,000,000 MAHA
+![A pictogram showcasing how the token supply gets released over time.](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjczJvfPpF-kD-T8JCr%2Fuploads%2FUIb7wIKBf3zrIj01pRSo%2Ffile.png?alt=media)
 
-This schedule ensures controlled release and stability in the MAHA token market.
+Tokens are released into circulation through a linear distribution to ensure that there is no concentration of tokens amongst early adopters (Except for the first year when private and seed token holders are continuously vested).
+
+_(It is estimated that by the year 3 or 4, the token distribution would be spread out as evenly as possible so that no single entity can control more than 1% of the MAHA supply)._
+
+_Post 10 years, the annual inflation rate drops to 2% per year._
+
+## Month by Month Breakdown
+
+For those who'd like to take precise numbers on how much `MAHA` will get added into the circulation, month by month; an excel sheet (linked [here](https://docs.google.com/spreadsheets/d/1MY3\_\_\_VHDXJc-I4mTNPFQghmVCUo4gONT882QlCSuX4/edit?usp=sharing)) has been created, which goes into depth on how many new tokens get added into circulation.
+
+{% embed url="https://docs.google.com/spreadsheets/d/1MY3___VHDXJc-I4mTNPFQghmVCUo4gONT882QlCSuX4/edit?usp=sharing" %}
+An interactive excel sheet which showcases token supply month by month
+{% endembed %}
