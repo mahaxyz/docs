@@ -6,7 +6,7 @@ description: >-
 
 # Safety Pool
 
-One of the major risks of any lending market is the accumulation of bad debt in the protocol. In this document we describe the Stability Pool, a ERC4626 vault that is used to cover any bad debt that might accumulate in the protocol.
+One of the major risks of any lending market is the accumulation of bad debt in the protocol. In this document we describe the Safety Pool, a ERC4626 vault that is used to cover any bad debt that might accumulate in the protocol.
 
 {% hint style="warning" %}
 The Safety Pool is only used as a means of last resort and works like an insurance fund where depositors stake their ZAI in return for protocol revenue and MAHA emissions; Staked ZAI can be the governance to write off any bad debt that has been incurred by the protocol.
@@ -22,7 +22,7 @@ Protecting bad debt has been attempted by many different DeFi lending protocols 
 * [Safety Module](https://docs.aave.com/aavenomics/safety-module) by Aave&#x20;
 * [Insurance Fund](https://ethena-labs.gitbook.io/ethena-labs/solution-design/reserve-fund) by Ethena
 
-While each implementation has it's pro's and con's, the ZAI Stability Pool takes some of the best ideas of the various models mentioned above and builds a single-staking vault that is built more like an DeFi insurance vault.
+While each implementation has it's pro's and con's, the ZAI Safety Pool takes some of the best ideas of the various models mentioned above and builds a single-staking vault that is built more like an DeFi insurance vault.
 
 ## Why a Safety Pool?
 
@@ -58,8 +58,8 @@ As documented above, we have made a few design decisions when building the Safet
 
 1. **A 10-day withdrawal period**: 10 days lets the MAHA governance quickly make a decision on the debt repayments before depositors withdraw their funds.
 2. **Rewards instead of an insurance/reserve fund**: Providing rewards is a much more scalable way of growing the safety pool than maintaining an insurance/reserve fund.&#x20;
-3. **Multiple rewards to compensate for the slashing risk**: Since users who deposit into the safety pool go through a risk of slashing, there needs to enough rewards to incentivize such a high risk activity. Rewards in the form revenue helps the stability pool scale along with the protocol.
-4. **Designed as an ERC4626 vault**: The ERC4626 standard allows for simplicity in the safety pool design and allows for users to easily move their position across other wallets or allow other protocols to directly integrate with the stability pool.
+3. **Multiple rewards to compensate for the slashing risk**: Since users who deposit into the safety pool go through a risk of slashing, there needs to enough rewards to incentivize such a high risk activity. Rewards in the form revenue helps the safety pool scale along with the protocol.
+4. **Designed as an ERC4626 vault**: The ERC4626 standard allows for simplicity in the safety pool design and allows for users to easily move their position across other wallets or allow other protocols to directly integrate with the safety pool.
 
 ## Example Scenarios
 

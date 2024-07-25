@@ -10,19 +10,19 @@ The following is a rough roadmap for the ZAI stablecoin.&#x20;
 
 In this phase we focus on bootstrapping liquidity for ZAI and aim to grow the liquidity and the market valuation of ZAI to 500k-1mn$.&#x20;
 
-Users can mint ZAI using stablecoins and will be incentivized with MAHA emissions. Accepted stablecoins will be USDC, DAI, USDe and ZAI will be minted using the [Peg Stability Module](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md).
+Users can mint ZAI using stablecoins and will be incentivized with MAHA emissions. Accepted stablecoins will be USDC, DAI, USDe and ZAI will be minted using the [Peg Stability Module](mechanics/peg-mechanics/peg-stablility-module-psm.md).
 
 Once the protocol hits the 500k-1mn$ liquidity mark, we will move onto Phase 1.
 
 ## Phase 1: Early Lending Stage
 
-In this phase we will launch ZAI into a few lending markets using the [Direct Deposit Module](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md) and accept a few assets as collateral to allow ZAI to be borrowed against them.&#x20;
+In this phase we will launch ZAI into a few lending markets using the [Direct Deposit Module](mechanics/peg-mechanics/direct-deposit-module-ddm.md) and accept a few assets as collateral to allow ZAI to be borrowed against them.&#x20;
 
 Initially the protocol will limit the amount of ZAI minted to lending protocols to be no more than 50% of the available liquidity on DEXes. This is kept to ensure that there's strong peg support as borrowers sell their ZAI for leveraged exposure.
 
 In this phase, the protocol starts to generate lending and borrowing revenue which starts to go back to LP stakers.
 
-This phase will last for 2-3 months and can get extended depending on the growth of the protocol. In this phase we will also stop any MAHA emissions used to bootstrap liquidity and focus solely on [revenue incentives](maha-governance/revenue-share.md) for liquidty incentives.
+This phase will last for 2-3 months and can get extended depending on the growth of the protocol. In this phase we will also stop any MAHA emissions used to bootstrap liquidity and focus solely on [revenue incentives](governance/revenue-share.md) for liquidty incentives.
 
 ## Phase 2: MAHA Airdrop & Points
 

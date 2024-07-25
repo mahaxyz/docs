@@ -24,7 +24,7 @@ Optionally to prevent a possible misuse of allocation, supply and redemption fee
 
 However they also have direct impact on the stability of ZAI. If a 2% redemption fee is applied to redemptions, then arbitrageurs will not participate in maintaining the peg at 1$ unless the price goes below 0.98$.
 
-Any fees charged by the PSM goes directly back to the protocol (See [Revenue Share](../../maha-governance/revenue-share.md)).
+Any fees charged by the PSM goes directly back to the protocol (See [Revenue Share](../../governance/revenue-share.md)).
 
 ## Source Code and Technical Documentation
 

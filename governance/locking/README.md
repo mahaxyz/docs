@@ -1,9 +1,5 @@
 # Locking
 
-{% hint style="info" %}
-Locking MAHA is handled by the locker contract, which is currently deployed at \[\[address]]
-{% endhint %}
-
 MAHAX is a representation of the voting power a user gets when they lock their `MAHA`. It is calculated using two metrics:
 
 * How long is the MAHA locked for?

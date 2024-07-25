@@ -20,7 +20,7 @@ This brings in various use-cases into the picture:
 * **Borrowers can take loans against their illiquid assets:** For certain asset classes, the protocol can decide to give out loans in ZAI (at much higher interest rates) to give borrowers liquidity against these assets.
 * **Traders can short ZAI**: Whilst not beneficial to the protocol, traders can also choose to short ZAI by borrowing it from the open market.
 
-All of these use-cases generate revenue to the protocol which then gets distributed back to liquidity providers (see [revenue share](../../maha-governance/revenue-share.md)).
+All of these use-cases generate revenue to the protocol which then gets distributed back to liquidity providers (see [revenue share](../../governance/revenue-share.md)).
 
 ## Risk Management
 
@@ -30,15 +30,17 @@ Lending out ZAI against non-stablecoin assets bring the benefit of revenue but a
 
 In such situations the risk-reward analysis needs to be made by the DAO/Risk Managers to sufficiently take decisions on the various assets to give loans to.
 
+In the event that the risk managers and liquidations don't sufficiently stop the protocol from incurring any bad debt, [the safety pool](../safety-pool.md) can be used to write off any bad debt.
+
 See [Risks](../../security/risks.md) for more details.
 
 ## Peg Stability with Lending Debt
 
-Historically ([as seen with GHO ](https://blockworks.co/news/gho-aave-peg-stablecoin-arbitrage)and other lending-backed stablecoins) have had a hard time maintaining the peg because the repayment mechanisms for when the stablecoin is trading below the peg haven't been strong enough to encourage arbitrageurs to get the peg back to the 1$ mark.
+Historically, lending-backed stablecoins ([as seen with GHO](https://blockworks.co/news/gho-aave-peg-stablecoin-arbitrage)) have had a hard time maintaining the peg because the repayment mechanisms for when the stablecoin is trading below the peg haven't been strong enough to encourage arbitrageurs to get the peg back to the 1$ mark.
 
-Nevertheless, in the case of ZAI, when the peg goes below the 1$ mark, the risk managers of the protocol can trigger a recall of debt by withdrawing any available ZAI liquidity from lending protocols forcing interest rates to rise and forcing borrowers to repay unwind their positions and repay their debt.
+Nevertheless, in the case of ZAI, when the peg goes below the 1$ mark, the risk managers of the protocol can trigger a recall of debt by withdrawing any available ZAI liquidity from lending pools, forcing interest rates to rise and hence getting borrowers to unwind their positions and repay their debt.
 
-While this has a weaker effect in retaining the peg back to the 1$ mark vs the [arbitrage mechanism](peg-stablility-module-psm.md#market-arbitrage-keeps-the-peg-at-1usd) that happens with the PSM module, the DDM is mostly solely responsible for scaling ZAI across other markets.
+While this has a weaker effect in retaining the peg when compared to the [arbitrage mechanism](peg-stablility-module-psm.md#market-arbitrage-keeps-the-peg-at-1usd) that happens in the PSM module, the DDM is mainly responsible for scaling ZAI across other markets. So as long loans are given out with proper risk management, in most cases a de-peg can be prevented.&#x20;
 
 ## Source Code and Technical Documentation
 

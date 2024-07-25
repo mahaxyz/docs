@@ -3,27 +3,27 @@
 * [Welcome](README.md)
 * [Roadmap](roadmap.md)
 
-## ZAI Stablecoin
+## Mechanics
 
-* [Overview](zai-stablecoin/overview.md)
-* [Peg Mechanics](zai-stablecoin/peg-mechanics/README.md)
-  * [Peg Stablility Module (PSM)](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md)
-  * [Direct Deposit Module (DDM)](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md)
-* [Liquidity Incentives](zai-stablecoin/liquidity-incentives.md)
-* [Safety Pool](zai-stablecoin/safety-pool.md)
-* [Use Cases](zai-stablecoin/use-cases.md)
+* [ZAI Overview](mechanics/zai-overview.md)
+* [Peg Mechanics](mechanics/peg-mechanics/README.md)
+  * [Peg Stablility Module (PSM)](mechanics/peg-mechanics/peg-stablility-module-psm.md)
+  * [Direct Deposit Module (DDM)](mechanics/peg-mechanics/direct-deposit-module-ddm.md)
+* [Liquidity Incentives](mechanics/liquidity-incentives.md)
+* [Safety Pool](mechanics/safety-pool.md)
+* [Use Cases](mechanics/use-cases.md)
 
-## MAHA Governance
+## Governance
 
-* [Overview](maha-governance/overview.md)
-* [Revenue Share](maha-governance/revenue-share.md)
-* [Earning MAHA](maha-governance/earning-maha.md)
-* [Token Distribution](maha-governance/token-distribution/README.md)
-  * [Incentive Distribution Schedule for MAHA](maha-governance/token-distribution/incentive-distribution-schedule-for-maha.md)
-* [Locking](maha-governance/locking/README.md)
-  * [What is MAHAX?](maha-governance/locking/what-is-mahax.md)
-  * [Staking](maha-governance/locking/staking.md)
-* [Points & Airdrop 🎉](maha-governance/points-and-airdrop.md)
+* [MAHA Overview](governance/maha-overview.md)
+* [Revenue Share](governance/revenue-share.md)
+* [Earning MAHA](governance/earning-maha.md)
+* [Token Distribution](governance/token-distribution/README.md)
+  * [Incentive Distribution Schedule for MAHA](governance/token-distribution/incentive-distribution-schedule-for-maha.md)
+* [Locking](governance/locking/README.md)
+  * [What is MAHAX?](governance/locking/what-is-mahax.md)
+  * [Staking](governance/locking/staking.md)
+* [Points & Airdrop 🎉](governance/points-and-airdrop.md)
 
 ## Security
 

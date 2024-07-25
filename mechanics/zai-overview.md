@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Overview
+# ZAI Overview
 
 {% hint style="info" %}
 The ZAI Stablecoin is currently deployed at: [0x6900057428C99Fb373397D657Beb40D92D8aC97f](https://etherscan.io/address/0x6900057428C99Fb373397D657Beb40D92D8aC97f#code)
@@ -42,4 +42,4 @@ ZAI is a decentralized stablecoin and the source code is completely open source 
 
 {% embed url="https://github.com/mahaxyz/contracts" %}
 
-ZAI is completely decentralized with ownership of the token controlled by the [MAHA governance](../maha-governance/overview.md).
+ZAI is completely decentralized with ownership of the token controlled by the [MAHA governance](../governance/maha-overview.md).
