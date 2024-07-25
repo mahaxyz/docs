@@ -68,8 +68,8 @@ If users have supplied 1,000,000 ZAI in the safety pool and the protocol is supp
 1. The lending pool the protocol supplied liquidity to incurs a bad debt position of over 10,000 ZAI.
    1. The protocol makes a governance proposal or executes a smart contract function to claim the 10,000 ZAI from the safety pool and square off all the bad debt from the protocol
    2. The balance in the safety pool reduces by 1% and every user that supplied to this pool will have their deposit slashed by 1%. This means that every user will now get 99% of their deposit back (instead of 100%).
-   3. Users continue to claim MAHA and protocol revenue for their deposit.
+   3. Depositors will continue to claim MAHA and protocol fees for their deposit.
 2. No bad debt gets accumulated by the protocol.
    1. In this situation governance nor any smart contract execute any action to claim any ZAI from the safety pool.
    2. No slashing happens and users get 100% of their deposit back.
-   3. Users continue to claim MAHA and protocol revenue for their deposit.
+   3. Depositors will continue to claim MAHA and protocol fees for their deposit.
