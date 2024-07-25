@@ -10,7 +10,7 @@
   * [Peg Stablility Module (PSM)](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md)
   * [Direct Deposit Module (DDM)](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md)
 * [Liquidity Incentives](zai-stablecoin/liquidity-incentives.md)
-* [Stability Pool](zai-stablecoin/stability-pool.md)
+* [Safety Pool](zai-stablecoin/safety-pool.md)
 * [Use Cases](zai-stablecoin/use-cases.md)
 
 ## MAHA Governance
