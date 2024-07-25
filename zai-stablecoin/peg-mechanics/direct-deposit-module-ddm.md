@@ -20,7 +20,7 @@ This brings in various use-cases into the picture:
 * **Borrowers can take loans against their illiquid assets:** For certain asset classes, the protocol can decide to give out loans in ZAI (at much higher interest rates) to give borrowers liquidity against these assets.
 * **Traders can short ZAI**: Whilst not beneficial to the protocol, traders can also choose to short ZAI by borrowing it from the open market.
 
-All of these use-cases generate revenue to the protocol which then gets distributed back to liquidity providers. See [revenue share](../../maha-governance/revenue-share.md).
+All of these use-cases generate revenue to the protocol which then gets distributed back to liquidity providers (see [revenue share](../../maha-governance/revenue-share.md)).
 
 ## Risk Management
 

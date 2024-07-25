@@ -8,11 +8,11 @@ The following is a rough roadmap for the ZAI stablecoin.&#x20;
 
 ## Phase 0: Early Bootstrap Mode
 
-In this phase we focus on bootstrapping liquidity for ZAI and aim to grow the liquidity and the market valuation of ZAI to 500-1mn$.&#x20;
+In this phase we focus on bootstrapping liquidity for ZAI and aim to grow the liquidity and the market valuation of ZAI to 500k-1mn$.&#x20;
 
 Users can mint ZAI using stablecoins and will be incentivized with MAHA emissions. Accepted stablecoins will be USDC, DAI, USDe and ZAI will be minted using the [Peg Stability Module](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md).
 
-Once the protocol hits the 500k-1mn$ liquidity mark, we will move onto Phase 2.
+Once the protocol hits the 500k-1mn$ liquidity mark, we will move onto Phase 1.
 
 ## Phase 1: Early Lending Stage
 
@@ -24,9 +24,9 @@ In this phase, the protocol starts to generate lending and borrowing revenue whi
 
 This phase will last for 2-3 months and can get extended depending on the growth of the protocol. In this phase we will also stop any MAHA emissions used to bootstrap liquidity and focus solely on [revenue incentives](maha-governance/revenue-share.md) for liquidty incentives.
 
-## Phase 2: MAHA Points
+## Phase 2: MAHA Airdrop & Points
 
-More information about this phase will go live soon.
+More information about this phase will go live soon. 🎉
 
 ## Phase 3: Cross-chain expansion
 

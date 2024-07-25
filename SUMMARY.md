@@ -10,6 +10,7 @@
   * [Peg Stablility Module (PSM)](zai-stablecoin/peg-mechanics/peg-stablility-module-psm.md)
   * [Direct Deposit Module (DDM)](zai-stablecoin/peg-mechanics/direct-deposit-module-ddm.md)
 * [Liquidity Incentives](zai-stablecoin/liquidity-incentives.md)
+* [Stability Pool](zai-stablecoin/stability-pool.md)
 * [Use Cases](zai-stablecoin/use-cases.md)
 
 ## MAHA Governance
@@ -17,19 +18,18 @@
 * [Overview](maha-governance/overview.md)
 * [Revenue Share](maha-governance/revenue-share.md)
 * [Earning MAHA](maha-governance/earning-maha.md)
-* [Points & Airdrop](maha-governance/points-and-airdrop.md)
 * [Token Distribution](maha-governance/token-distribution/README.md)
   * [Incentive Distribution Schedule for MAHA](maha-governance/token-distribution/incentive-distribution-schedule-for-maha.md)
 * [Locking](maha-governance/locking/README.md)
   * [What is MAHAX?](maha-governance/locking/what-is-mahax.md)
   * [Staking](maha-governance/locking/staking.md)
+* [Points & Airdrop 🎉](maha-governance/points-and-airdrop.md)
 
 ## Security
 
 * [Deployed Addresses](security/deployed-addresses.md)
 * [Audits](security/audits.md)
 * [Timelocked Multisig Admin](security/timelocked-multisig-admin.md)
-* [Insurance Fund](security/insurance-fund.md)
 * [Risks](security/risks.md)
 
 ## Links

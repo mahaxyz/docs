@@ -14,7 +14,24 @@ layout:
 
 # Risks
 
-Managing risk is essential for the stability and success of the ZAI protocol. Risks within the ZAI protocol are categorized into three main types:
+Being a lending focused stablecoin, there are mainly two kinds of risks that the entire protocol can be exposed to and what preventive measures have been taken to protect the protocol.
+
+1. **Technical Risks**: Risks relating to the smart-contracts, code, frontends, infrastructure. Technical risks can be mitigated with audits and best security practices.
+2. **Economic Risks**: Risks relating to the liquidity, incentives, governance, peg etc.. Economic risks can be mitigated with dedicated risk managers observing the protocol.
+
+## Technical Risks
+
+### Collateral Risks
+
+### Oracle Risks
+
+## Economic Risks
+
+### Collateral Risks
+
+### Bad Debt
+
+### Governance Attacks
 
 ### 1. Market Risk
 
