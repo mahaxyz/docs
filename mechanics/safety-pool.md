@@ -40,17 +40,11 @@ Tackling bad debt efficiently will further allow the protocol to scale and accep
 
 ## How does the Safety Pool work?
 
-Similar to various Insurance vaults, users can stake their ZAI into the ZAI safety pool in return for yield from revenue and a share of MAHA emissions.
+Similar to various Insurance vaults, users can stake their ZAI into the safety pool in return for yield from revenue and a share of MAHA emissions (with the risk of slashing).
 
-Users who pledge their ZAI tokens into the safety pool to receive a ERC4626 vault token. The ZAI deposited into the vault can at any time (using on-chain data) be used to cover any bad-debt that has been accumulated in the protocol.
+The ZAI deposited into the pool can at any time (using on-chain data) be used to write off any bad-debt that has been accumulated in the protocol.&#x20;
 
-When the ZAI is used to pay off this debt, a user's deposit in the safety pool gets slashed to pay off the bad debt. To compensate for this risk, the safety pool rewards liquidity providers with MAHA emissions and protocol revenue.
-
-## Withdrawal Delay
-
-Similar to other slashing mechanisms that have existed in the Ethereum staking/re-staking ecosystem, depositors who look to withdraw funds from the protocol will go through a 10 day delay.
-
-This is done to ensure that in the event of a bad debt repayment, governance has enough time to execute a payment of debt with sufficient liquidity in the pool.
+When this happens a user's deposit gets slashed. Because of the risk of slashing, the safety pool provides additional rewards to liquidity providers with MAHA emissions and protocol revenue.
 
 ## Design Decisions with the Safety Pool
 

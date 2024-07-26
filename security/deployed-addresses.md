@@ -4,38 +4,33 @@ description: This page contains the list of all deployed addresses for the proto
 
 # Deployed Addresses
 
-
-
 This table contains a list of the core addresses deployed from the \[\[https://github.com/Maha/governance-contracts]] repository
 
-| Contract Name      | Deployed Addres |
-| ------------------ | --------------- |
-| MAHA Token         |                 |
-| ZAI Token          |                 |
-| 14 day Timelock    |                 |
-| 30 day Timelock    |                 |
-| MAHAXGovernor      |                 |
-| Registry           |                 |
-| EmissionController |                 |
-| BaseV2Voter        |                 |
-| MAHAXLocker        |                 |
-| MAHAXStaker        |                 |
+| Contract Name             | Address | Comments |
+| ------------------------- | ------- | -------- |
+| MAHA Token                |         |          |
+| ZAI Token                 |         |          |
+| 14 day Timelock           |         |          |
+| PegStabilityModule (USDC) |         |          |
+| PegStabilityModule (DAI)  |         |          |
+| ProxyAdmin                |         |          |
+| MAHAXLocker               |         |          |
+| MAHAXStaker               |         |          |
 
-The table contains a list of periphery addresses such as fee distributors, gauges, and pool incentive contracts.&#x20;
+### Cross-Chainn Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
-{% hint style="info" %}
-This is not a definite list, as more gauges get added, this list will continue to expand
-{% endhint %}
+The protocol leverages on the Connext bridge to enable features such as native restaking, cross-chain bridging and cross-chain governance.
 
-<table><thead><tr><th width="331">Contract Name</th><th>Deployed Address</th></tr></thead><tbody><tr><td>MAHA Fee Distributor</td><td><a href="https://etherscan.io/address/0x5094b4c40e8d7c9a7522349afce1032237e35f20">0x5094B4C40E8d7c9a7522349AFCE1032237e35f20</a></td></tr></tbody></table>
 
-### Layer 2 Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
-The table contains a list of addresses of ARTH and MAHA across various other chains.
+{% tabs %}
+{% tab title="MAHA" %}
+<table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>ZaiStablecoin</td><td><a href="https://etherscan.io/token/0x6900057428c99fb373397d657beb40d92d8ac97f">0x6900057428c99fb373397d657beb40d92d8ac97f</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
 
-| Token | Network             | Deployed Address                                                                                                    |
-| ----- | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| MAHA  | Arbitrum One        | [0xeb99748e91afca94a6289db3b02e7ef4a8f0a22d](https://arbiscan.io/token/0xeb99748e91afca94a6289db3b02e7ef4a8f0a22d)  |
-| MAHA  | Binance Smart Chain | [0xce86f7fcd3b40791f63b86c3ea3b8b355ce2685b](https://bscscan.com/token/0xce86f7fcd3b40791f63b86c3ea3b8b355ce2685b)  |
-| MAHA  | Ethereum            | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0) |
-| MAHA  | Base                | [0x437ebdffd397860d0f7f1660d817c059f3b8238a](https://basescan.org/token/0x437ebdffd397860d0f7f1660d817c059f3b8238a) |
+
+{% endtab %}
+
+{% tab title="ZAI" %}
+<table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>MAHAToken</td><td><a href="https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0">0x745407c86df8db893011912d3ab28e68b62e49b0</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
