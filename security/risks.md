@@ -16,81 +16,100 @@ layout:
 
 Being a lending focused stablecoin, there are mainly two kinds of risks that the entire protocol can be exposed to and what preventive measures have been taken to protect the protocol.
 
-1. **Technical Risks**: Risks relating to the smart-contracts, code, frontends, infrastructure. Technical risks can be mitigated with audits and best security practices.
-2. **Economic Risks**: Risks relating to the liquidity, incentives, governance, peg etc.. Economic risks can be mitigated with dedicated risk managers observing the protocol.
+***
 
-## Technical Risks
+## 1. Technical Risks
 
-### Collateral Risks
+Risks relating to the smart-contracts, code, frontends, infrastructure. Technical risks can be mitigated with audits and best security practices.
 
-### Oracle Risks
+### **Smart Contract Vulnerabilities**
 
-## Economic Risks
+* **Code Exploits**: Bugs or vulnerabilities in the smart contract code can be exploited by malicious actors, leading to loss of funds or manipulation of the stablecoin system.
+* **Upgradability Issues**: If the smart contract is upgradable, it introduces risks related to governance attacks or improper implementation of upgrades.
 
-### Collateral Risks
+### **Collateral Management Risks**
 
-### Bad Debt
+* **Over-collateralization**: Ensuring that loans are sufficiently over-collateralized to manage market volatility. Failure in maintaining proper collateral ratios can lead to insolvency.
+* **Collateral Liquidation**: The process of liquidating collateral in the event of loan defaults must be efficient and robust. Technical failures in liquidation mechanisms can cause system-wide issues.
 
-### Governance Attacks
+### **Blockchain Risks**
 
-### 1. Market Risk
+* **Network Congestion**: High transaction volume on the underlying blockchain can cause delays and increased costs, affecting the stablecoin’s usability.
+* **Cross-Chain Interactions**: If the stablecoin interacts with other blockchains, there are additional risks related to the security and reliability of cross-chain bridges and protocols.
+* **Forks and Upgrades**: Changes to the underlying blockchain protocol can introduce compatibility issues or vulnerabilities in the stablecoin’s smart contracts.
 
-* **Liquidity**: Risk related to the ease of buying or selling assets without affecting prices.
-* **Volatility**: Risk from significant price variations affecting collateral value.
+### **Price Oracle Risks**
 
-### 2. Technology Risk
+* **Oracle Manipulation**: Reliance on price oracles to determine collateral value introduces risks of manipulation, leading to improper collateralization levels.
+* **Oracle Downtime**: If the price oracles go down or provide incorrect data, it can lead to incorrect valuations and risk assessments.
 
-* **Smart Contracts**: Vulnerabilities in the code that could be exploited.
-* **Dependencies**: Risks from other protocols or services the ZAI protocol relies on.
-* **Oracle Price Feeds**: Risk from inaccurate external price data.
+### **Peg Stability Mechanisms**
 
-### 3. Counterparty Risk
+* **Algorithmic Failures**: If the stablecoin uses algorithmic mechanisms to maintain its peg, any flaws or bugs in these algorithms can cause de-pegging.
+* **Market Manipulation**: External market forces or manipulative actions can challenge the stability of the peg.
 
-* **Governance**: Risks from governance decisions impacting the protocol.
-* **Legal and Regulatory**: Compliance risks varying across jurisdictions.
+### Mitigation Strategies
 
-## Security
+To mitigate the various technical risks, we perform the following steps.
 
-Ensuring the security of the ZAI protocol is a top priority. Key measures include:
+1. **Code Audits**: Regular and thorough audits by reputable third parties.
+2. **Formal Verification**: Use formal methods to mathematically prove the correctness of smart contracts.
+3. **Robust Oracles**: Employ decentralized, reliable oracles with redundancy.&#x20;
+4. **Fail-safes and Circuit Breakers**: Implement mechanisms to halt operations in case of detected anomalies.
+5. **Comprehensive Testing**: Extensive testing in both simulated and real-world environments.
+6. **Insurance Mechanisms**: Establish insurance funds or integrate with insurance protocols to cover potential losses.
 
-### Smart Contract Security
+***
 
-* **Audits**: Regular independent audits to identify and fix vulnerabilities.
-* **Formal Verification**: Ensuring smart contracts behave as expected through mathematical proofs.
+## 2. Economic Risks
 
-### Dependency Management
+Risks relating to the liquidity, incentives, governance, peg etc.. Economic risks can be mitigated with dedicated risk managers observing the protocol.
 
-* **Code Reviews**: Thorough reviews of dependencies to avoid vulnerabilities.
-* **Regular Updates**: Keeping dependencies up to date with the latest security patches.
+### **Market Volatility**
 
-### Oracle Security
+* **Collateral Value Fluctuation**: The value of collateral backing the stablecoin can fluctuate significantly, especially if it’s in volatile assets like cryptocurrencies. This can lead to under-collateralization and potential insolvency.
+* **Stablecoin Demand**: Fluctuations in demand for the stablecoin itself can impact its price stability, leading to periods of de-pegging or excessive inflation.
 
-* **Multiple Oracles**: Using multiple providers for accurate and reliable price feeds.
-* **Fallback Mechanisms**: Handling failures or inaccuracies in oracle data.
+### **Interest Rate Risk**
 
-## Risk Parameters Analysis
+* **Variable Rates**: Changes in interest rates for lending and borrowing can affect the profitability and attractiveness of the stablecoin. If interest rates are not well-managed, it can lead to liquidity issues or uncompetitive rates.
+* **Interest Rate Models**: Flaws in the algorithm or model determining interest rates can lead to economic imbalances, impacting both lenders and borrowers.
 
-Risk parameters mitigate market risks associated with the collateral. Each ZAI minted is over-collateralized with listed collateral. Adequate margins and incentives keep positions collateralized during adverse conditions. If collateral value falls below a threshold, the vault is liquidated to repay the debt.
+### **Liquidity Risk**
 
-## Supply Caps
+* **Liquidity Mismatch**: If there’s a mismatch between the liquidity of the stablecoin and the underlying collateral, it can lead to problems during redemption or liquidation processes.
+* **Market Depth**: Insufficient market depth can cause large trades to significantly impact the stablecoin’s price, leading to slippage and volatility.
 
-Supply caps limit the maximum amount of an asset supplied to the protocol, reducing exposure to riskier assets. Caps are based on on-chain liquidity and the total volume of collateral assets.
+### **Redemption Risk**
 
-By understanding and managing these risks, the ZAI protocol aims to provide a secure and stable environment for all users
+* **Mass Redemption**: In the event of a sudden surge in redemptions, the stablecoin issuer may face challenges in liquidating collateral quickly enough to meet demands, leading to a potential run on the stablecoin.
+* **Redemption Fees**: High redemption fees or delays can deter users from redeeming the stablecoin, impacting its perceived value and stability.
 
+### **Collateral Diversification Risk**
 
+* **Concentration Risk**: If the collateral is concentrated in a few assets or asset types, it increases exposure to specific market risks and events that can significantly impact the stablecoin’s stability.
+* **Collateral Quality**: The quality and reliability of collateral assets can impact the overall health of the stablecoin. Low-quality or illiquid collateral increases risk.
 
-#### **Collateralization**
+### **Governance Risk**
 
-* **Full Collateralization:** Ensures that every minted ZAI is fully backed by an equivalent amount of stablecoins, maintaining the peg and providing security.
-* **Reserve Management:** The system manages the collateral reserves to ensure they remain sufficient and secure.
+* **Decision-Making Delays**: Delayed or poor economic decisions due to inefficient governance mechanisms can negatively impact the stablecoin’s stability and user confidence.
+* **Conflict of Interest**: Conflicts within the governance structure can lead to decisions that prioritize certain stakeholders over the stability and health of the stablecoin.
 
-#### **Governance and Oversight**
+### **Systemic Risk**
 
-* **Community Governance:** MAHA’s governance framework oversees the operation of the PSM and Direct Deposits.
-* **Risk Parameters:** Risk parameters, such as collateralization ratios and deposit caps, are determined and adjusted through community governance to manage systemic risk.
+* **DeFi Interdependencies**: The stablecoin’s integration with other DeFi protocols can expose it to systemic risks where failures or issues in other protocols can cascade and impact the stablecoin.
+* **Global Economic Conditions**: Macro-economic events and conditions can affect the underlying assets and overall confidence in stablecoins, influencing their stability and adoption.
 
-#### **Security Measures**
+### Mitigation Strategies
 
-* **Regular Audits:** Regular audits and security assessments are conducted to safeguard the smart contracts and overall system integrity.
-* **Transparency:** Ensures transparency in operations and reserves.
+To mitigate the various economic risks, we perform the following steps.
+
+1. **Diversified Collateral**: Using a diverse set of collateral assets to minimize concentration risk.
+2. **Dynamic Interest Rates**: Implementing adaptive interest rate mechanisms to respond to market conditions.
+3. **Liquidity Management**: Ensuring robust liquidity reserves and mechanisms to handle redemption surges.
+4. **Risk Monitoring**: Continuous monitoring and assessment of economic risks to make proactive adjustments.
+5. **Strong Governance**: Establishing a transparent and efficient governance framework to manage economic policies effectively.
+
+***
+
+While the above list of risks is exhaustive, it does not cover every possibility that the protocol could be exposed to.&#x20;

@@ -4,7 +4,7 @@ description: This page contains the list of all deployed addresses for the proto
 
 # Deployed Addresses
 
-This table contains a list of the core addresses deployed from the \[\[https://github.com/Maha/governance-contracts]] repository
+This table contains a list of the core addresses deployed from the [https://github.com/mahaxyz/contracts](https://github.com/mahaxyz/contracts) repository
 
 | Contract Name             | Address                                                                                                             | Comments                                                        |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -18,9 +18,7 @@ This table contains a list of the core addresses deployed from the \[\[https://g
 
 ### Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
-The protocol leverages on the Connext bridge to enable features such as native restaking, cross-chain bridging and cross-chain governance.
-
-
+The protocol leverages on the [connext bridge](https://www.connext.network/) to enable features such as native restaking, cross-chain bridging and cross-chain governance.
 
 {% tabs %}
 {% tab title="ZAI" %}
