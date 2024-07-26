@@ -26,7 +26,13 @@ This phase will last for 2-3 months and can get extended depending on the growth
 
 ## Phase 2: MAHA Airdrop & Points
 
-More information about this phase will go live soon. 🎉
+{% hint style="info" %}
+The MAHA Airdrop is currently kept behind closed doors and will be revealed to the community when the time is right.&#x20;
+{% endhint %}
+
+{% hint style="success" %}
+Earliest contributors to the protocol will earn the most amount of points. Even prior to launch.&#x20;
+{% endhint %}
 
 ## Phase 3: Cross-chain expansion
 
