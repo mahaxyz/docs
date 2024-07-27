@@ -18,11 +18,13 @@ This is the most common use-case for ZAI, where users are looking for ways to le
 
 The yield bearing assets also need to be pegged to the 1$ mark or be relatively stable to avoid any impermenant loss or massive liquidations.
 
-Ideal assets are: USDe, sDAI
+**Ideal assets are:** USDe, sDAI, aUSDC etc...
 
 ### **Leveraging on Pendle PT tokens**
 
 With the rise of pendle and other yield market-places, PT tokens present an opportunity to allow yield managers to leverage their exposure within the various PT markets.
+
+**Ideal assets are:** PT-USDe, PT-aUSDC, PT-sDAI etc...
 
 ### Getting liquidity against liquidity lockers
 
@@ -30,11 +32,15 @@ A lot of veTokens (such as veCrv, veBal) are not highly liquid but are still fin
 
 By offering loans in the form of ZAI, the protocol can not just solve a liquidity problem with these tokens but also charge a higher interest rate due to the higher risk profile of these tokens.
 
+**Ideal assets are**: sdCRV, cvxCRV, sdBAL etc..
+
 ### **Leveraging on LP tokens**&#x20;
 
 While super risky, LP tokens are complex DeFi tokens and their usage as collateral allows users to leverage up on certain positions.&#x20;
 
 Furthermore with the introduction of Uniswap V3 vaults such as Ichi and Gamma, this can be further extended to leverage on highly capital efficient Uniswap V3 positions.
+
+**Ideal assets are:** Ichi Vault Tokens, Gamma Vault Tokens etc...
 
 ### **Leveraging on Memecoins**
 
@@ -42,8 +48,12 @@ A lot of memecoin users are looking for avenues to long/short memecoins with lev
 
 The protocol can also charge a lot higher interest fees due to the high risk profiles of these tokens.
 
+**Ideal assets are:** PEPE, Shiba Inu etc...
+
 ### **Lending against Governance Tokens**
 
 Governance tokens are known to be often highly volatile but also illiquid at times. By providing liquidity to a lending market with these governance tokens, we allow a way for long-term contributors to find liquidity against their illiquid governance tokens.
 
 The protocol can also charge a lot higher interest fees due to the high risk profiles of these tokens.
+
+**Ideal assets are:** UNI, CRV, MAHA etc...
