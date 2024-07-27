@@ -4,16 +4,46 @@ description: This page explains the various use-cases that users can use ZAI wit
 
 # Use Cases
 
-**Liquidity Provision:**
+ZAI is primarily a lending-focused stablecoin. Whilst pegged at 1$ it is not really meant to be used as a means of payment nor as a means of holding wealth. It is designed specifically to allow users to leverage on yield.
 
-* **Minting and LP Provision:** Users can mint ZAI using stablecoins and provide liquidity in ZAI/XYZ pools, earning fees without incurring interest costs.
-* **No Interest Fees:** Users supplying stablecoins to mint ZAI do not pay interest fees, making it an attractive option for liquidity providers.
+Which is why most use-cases of ZAI revolve around the liquidity provisioned by the [Direct Deposit Module](peg-mechanics/direct-deposit-module-ddm.md) into various lending protocols.&#x20;
 
-**Lending and Borrowing:**
+n each of these use-cases of ZAI, We need to allow ZAI to be readily available on lending markets at attractive interest rates and reasonable LTVs so that'll make sense for borrowers to borrow and leverage their exposure.
 
-* **Lending LRT and Borrowing ZAI:** Users can lend LRT and borrow ZAI, with borrowing subject to an Annual Percentage Yield (APY).
+With this in mind, we present the following use-cases for ZAI. Keep in mind that the use-cases below need to be voted in by governance before they are executed upon.
 
-**DeFi Integration:**
+### **Leveraging on Yield Bearing Assets**
 
-* **DeFi Platforms:** ZAI can be used across various DeFi platforms for trading, staking, and liquidity provision, promoting its adoption and utility.
-* **Integration with Other Protocols:** By integrating with multiple DeFi protocols, ZAI can offer a wide range of financial services and products.
+This is the most common use-case for ZAI, where users are looking for ways to leverage their exposure on yield bearing assets.&#x20;
+
+The yield bearing assets also need to be pegged to the 1$ mark or be relatively stable to avoid any impermenant loss or massive liquidations.
+
+Ideal assets are: USDe, sDAI
+
+### **Leveraging on Pendle PT tokens**
+
+With the rise of pendle and other yield market-places, PT tokens present an opportunity to allow yield managers to leverage their exposure within the various PT markets.
+
+### Getting liquidity against liquidity lockers
+
+A lot of veTokens (such as veCrv, veBal) are not highly liquid but are still financial assets as they are backed by governance tokens which upon expiry of a lock can become unlocked and traded in the open market.
+
+By offering loans in the form of ZAI, the protocol can not just solve a liquidity problem with these tokens but also charge a higher interest rate due to the higher risk profile of these tokens.
+
+### **Leveraging on LP tokens**&#x20;
+
+While super risky, LP tokens are complex DeFi tokens and their usage as collateral allows users to leverage up on certain positions.&#x20;
+
+Furthermore with the introduction of Uniswap V3 vaults such as Ichi and Gamma, this can be further extended to leverage on highly capital efficient Uniswap V3 positions.
+
+### **Leveraging on Memecoins**
+
+A lot of memecoin users are looking for avenues to long/short memecoins with leverage. By providing liquidity to a lending market with these memecoins, traders can now find liquidity to long/short memecoins with leverage.
+
+The protocol can also charge a lot higher interest fees due to the high risk profiles of these tokens.
+
+### **Lending against Governance Tokens**
+
+Governance tokens are known to be often highly volatile but also illiquid at times. By providing liquidity to a lending market with these governance tokens, we allow a way for long-term contributors to find liquidity against their illiquid governance tokens.
+
+The protocol can also charge a lot higher interest fees due to the high risk profiles of these tokens.

@@ -37,6 +37,8 @@ ZAI aims to provide leverage liquidity for:
 * RWAs
 * DeFi Assets (Pendle PT tokens, LP tokens, Liquid Lockers etc..)
 
+ZAI is primarily a lending-focused stablecoin. Whilst it is pegged at 1$ it is not really meant to be used as a means of payment nor as a means of holding wealth. It is designed specifically to allow users to allow themselves to leverage on various yield opportunities.
+
 ## Key Features <a href="#key-features" id="key-features"></a>
 
 These are the key features that make ZAI particularly unique from other stablecoins out there.
