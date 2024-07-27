@@ -1,9 +1,10 @@
 ---
+description: This page explains the various measures
 layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -12,9 +13,13 @@ layout:
     visible: true
 ---
 
-# Earn Rewards by Staking ZAI (USDz)
+# Liquidity Incentives
 
 Staking ZAI ($USDz) allows users to earn rewards and is managed by the StakedZAI smart contract. Users can stake and unstake $USDz directly through the MAHA dApp UI or interact with the contract directly.
+
+{% hint style="info" %}
+Users who have staked MAHA get a boost in their liquidity incentives of upto 5x! Read more about [staking boosts](../governance/staking-boosts.md).
+{% endhint %}
 
 ## How Staking Works
 

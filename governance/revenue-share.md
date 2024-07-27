@@ -11,6 +11,10 @@ The MAHA ecosystem has various sources of revenue, which get collected at a sing
 1. **Borrowing Fees**: Users that borrow ZAI pay a borrowing interest in the form of ZAI. This is the main focus for the protocol to scale.
 2. **Redemption Fees:** Any time a user redeems ZAI for the underlying stablecoins, a 1-3% redemption fee is charged in the stablecoin.
 
+{% hint style="info" %}
+Users who have staked MAHA get a boost in their revenue share of upto 5x! Read more about [staking boosts](staking-boosts.md).
+{% endhint %}
+
 ## How Revenue Gets Distributed
 
 Once revenue gets collected, it then gets sent to various different sources to grow the protocol. A large portion of the revenue is redirected to liquidity pools as without liquidity the protocol cannot scale.
