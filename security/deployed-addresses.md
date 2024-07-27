@@ -8,7 +8,7 @@ layout:
   tableOfContents:
     visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
 ---
@@ -32,13 +32,10 @@ The protocol leverages on the [connext bridge](https://www.connext.network/) to 
 
 {% tabs %}
 {% tab title="ZAI" %}
-
 <table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>ZaiStablecoin</td><td><a href="https://etherscan.io/token/0x6900057428c99fb373397d657beb40d92d8ac97f">0x6900057428c99fb373397d657beb40d92d8ac97f</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
-
 {% endtab %}
 
 {% tab title="MAHA" %}
-
 <table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>MAHAToken</td><td><a href="https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0">0x745407c86df8db893011912d3ab28e68b62e49b0</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
