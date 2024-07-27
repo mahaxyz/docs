@@ -12,6 +12,10 @@ One of the major risks of any lending market is the accumulation of bad debt in 
 The Safety Pool is only used as a means of last resort and works like an insurance fund where depositors stake their ZAI in return for protocol revenue and MAHA emissions; Staked ZAI can be slashed by the governance to write off any bad debt that the protocol has incurred.
 {% endhint %}
 
+{% hint style="info" %}
+Users who participate in the Safety Pool and have staked MAHA earn a boost on all their rewards of upto 5x! Read more about [staking boosts](../governance/staking-boosts.md).
+{% endhint %}
+
 ## What is Bad Debt?
 
 Bad debt accrual in a protocol means that one or multiple positions have less collateral than liabilities, which leads to a situation on which the user has no incentive to repay and consequently, if all depositors of the borrowed asset would try to withdraw (or cause a bank run), there would be a deficit in the protocol.
