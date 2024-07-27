@@ -63,7 +63,7 @@ function _calculateBoostedBalance(address account) internal view returns (uint25
   // how much total tokens have been staked
   uint256 totalSupply = totalSupply();
 
-  // reduce the balance by 1/5th; anyone that is not staked any tokens
+  // reduce the balance by 1/5th; anyone that has not staked any tokens
   // will always have their reward balances at 1/5th the original value
   boostedBalance_ = balance / 5;
   
