@@ -1,10 +1,14 @@
-# Staking
+---
+description: >-
+  This page talks about how NFTs are created for every user-stake in the
+  protocol.
+---
+
+# Staking NFTs
 
 {% hint style="info" %}
-Staking MAHAX NFTs is handled by the Staker Contract which is currently deployed at \[\[contract address]]
+X NFTs unless staked, have no functionality within the governance platform. These include benefits like earning fees, exercising voting power, providing legitimacy to a group of individuals, and so on.
 {% endhint %}
-
-MAHAX NFTs unless staked, have no functionality within the governance platform. These include benefits like earning fees, exercising voting power, providing legitimacy to a group of individuals, and so on.
 
 Once an NFT is staked:
 

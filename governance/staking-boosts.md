@@ -6,7 +6,7 @@ description: This page explains about staking boosts and how users
 
 Initially inspired from the staking boosts implemented on Curve finance, the MAHA protocol also implements it's own version of a staking boost, incentivizing liquidity providers who are participating within the ecosystem to also become MAHA stakers.
 
-Every staking pool contract in the protocol implements a staking boost mechanism that gives liquidity providers who [stake MAHA](locking/staking.md), a boost of up-to 5x depending on how much MAHA has been staked.
+Every staking pool contract in the protocol implements a staking boost mechanism that gives liquidity providers who [stake MAHA](staking.md), a boost of up-to 5x depending on how much MAHA has been staked.
 
 The more MAHA a user stakes, the larger the boost that they get.
 
