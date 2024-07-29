@@ -19,12 +19,13 @@ This table contains a list of the core addresses deployed from the [https://gith
 
 | Contract Name               | Address                                                                                                               | Comments                                                        |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| MAHA Token                  | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)   | The governance token                                            |
-| ZAI Token                   | [0x6900057428c99fb373397d657beb40d92d8ac97f](https://etherscan.io/address/0x6900057428c99fb373397d657beb40d92d8ac97f) | The USD stablecoin                                              |
-| Timelock                    | [0x69000d5a9f4ca229227b90f61285f5866d139f11](https://etherscan.io/address/0x69000d5a9f4ca229227b90f61285f5866d139f11) | All protocol ownership rests in this timelock                   |
-| Peg Stability Module (USDC) | [0x69000a93c8acf8126d6ef5b1054c2695744ca4ee](https://etherscan.io/address/0x69000a93c8acf8126d6ef5b1054c2695744ca4ee) | Used to mint ZAI with USDC collateral                           |
-| Peg Stability Module (USDT) | [0x690006c6bcd62d06b935050729b3004e962ba708](https://etherscan.io/address/0x690006c6bcd62d06b935050729b3004e962ba708) | Used to mint ZAI with USDT collateral                           |
-| ProxyAdmin                  | [0x69000f2f879ee598ddf16c6c33cfc4f2d983b6bd](https://etherscan.io/address/0x69000f2f879ee598ddf16c6c33cfc4f2d983b6bd) | Used as the admin for all deployed proxies. Owned by governance |
+| MAHA Token (MAHA)           | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)   | The governance token                                            |
+| ZAI Token (USDz)            | [0x69000405f9dce69bd4cbf4f2865b79144a69bfe0](https://etherscan.io/token/0x69000405f9dce69bd4cbf4f2865b79144a69bfe0)   | The USD stablecoin                                              |
+| Peg Stability Module (USDC) | [0x69000052a82e218ccb61fe6e9d7e3f87b9c5916f](https://etherscan.io/address/0x69000052a82e218ccb61fe6e9d7e3f87b9c5916f) | Used to mint ZAI with USDC collateral                           |
+| SafetyPool (sUSDZ)          | [0x69000e468f7f6d6f4ed00cf46f368acdac252553](https://etherscan.io/address/0x69000e468f7f6d6f4ed00cf46f368acdac252553) | Safety Pool used to stake ZAI to protect against bad debt       |
+| Timelock                    | [0x690002da1f2d828d72aa89367623df7a432e85a9](https://etherscan.io/address/0x690002da1f2d828d72aa89367623df7a432e85a9) | All protocol ownership rests in this timelock                   |
+| ProxyAdmin                  | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
+| SafetyPool Zap              | [0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424](https://etherscan.io/address/0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424) | Used to zap into the safety pool.                               |
 
 ### Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
@@ -32,10 +33,12 @@ The protocol leverages on the [connext bridge](https://www.connext.network/) to 
 
 {% tabs %}
 {% tab title="ZAI" %}
-<table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>ZaiStablecoin</td><td><a href="https://etherscan.io/token/0x6900057428c99fb373397d657beb40d92d8ac97f">0x6900057428c99fb373397d657beb40d92d8ac97f</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
+
+<table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>ZaiStablecoin</td><td><a href="https://etherscan.io/token/0x69000405f9dce69bd4cbf4f2865b79144a69bfe0">0x69000405f9dce69bd4cbf4f2865b79144a69bfe0</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="MAHA" %}
+
 <table><thead><tr><th width="129">Network</th><th width="132">Contract</th><th width="174">Address</th><th>Comments</th></tr></thead><tbody><tr><td>Ethereum</td><td>MAHAToken</td><td><a href="https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0">0x745407c86df8db893011912d3ab28e68b62e49b0</a></td><td>The main token on the Ethereum network</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
