@@ -4,7 +4,7 @@ description: This page details a simple roadmap for the MAHA protocol.
 
 # Roadmap
 
-The following is a rough roadmap for the ZAI stablecoin.&#x20;
+The following is a rough roadmap for the ZAI stablecoin:&#x20;
 
 ## Phase 0: Early Bootstrap Mode
 
