@@ -7,7 +7,7 @@ description: >-
 # Staking NFTs
 
 {% hint style="info" %}
-X NFTs unless staked, have no functionality within the governance platform. These include benefits like earning fees, exercising voting power, providing legitimacy to a group of individuals, and so on.
+NFTs, unless staked, have no functionality within the governance platform. These include benefits like earning fees, exercising voting power, providing legitimacy to a group of individuals, and so on.
 {% endhint %}
 
 Once an NFT is staked:

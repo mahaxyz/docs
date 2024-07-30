@@ -22,7 +22,7 @@ The pegging mechanism of ZAI ($USDz) ensures that it maintains a 1:1 ratio with 
 There are two core modules that allow for ZAI to achieve stability and scale.
 
 * [The Peg Stability Module](peg-stablility-module-psm.md): Focused on stability, the ZAI PSM allows users to mint/redeem ZAI for stablecoins at a 1:1 ratio. This ensures stability for ZAI at the 1$ price mark.
-* [The Direct Deposit Module](direct-deposit-module-ddm.md): Focused on growth, the ZAI DD module allows the protocol to mint large amounts of ZAI into lending protocols allowing borrowers to take over-collateralized loans in ZAI generating interest for users.
+* [The Direct Deposit Module](direct-deposit-module-ddm.md): Focused on growth, the ZAI DD module allows the protocol to mint large amounts of ZAI into lending protocols that allow borrowers to take over-collateralized loans in ZAI, generating interest for users.
 
 ***
 
@@ -30,9 +30,9 @@ There are two core modules that allow for ZAI to achieve stability and scale.
 
 At no point in time does ZAI become under-collateralized. It is either backed by stablecoins via the Peg Stability Module (PSM) or it is backed by over-collateralized loans via the Direct Deposit Module (DDM).
 
-* **When ZAI is trading above 1$,** arbitrageurs can simply mint more ZAI by depositing USDC (or other stablecoins) onto the PSM module and sell the newly minted ZAI into the open market bringing the peg back to 1$. At the same time the protocol can also issue more debt (priced at 1$) to encourage users to borrow ZAI and sell it in the open market.
-* When ZAI is trading below 1$, arbitrageuers can simply buyback the ZAI from the open market and redeem USDC (or other stablecoins) from the PSM, bringing the peg back to 1$. If the PSM does not have enough liquidity to maintain the peg, then the protocol can recall the loans issued by the Direct Deposit Module forcing borrowers to repay their loans in ZAI.
+* **When ZAI is trading above $1,** arbitrageurs can simply mint more ZAI by depositing USDC (or other stablecoins) onto the [PSM](peg-stablility-module-psm.md) module and sell the newly minted ZAI into the open market bringing the peg back to $1. At the same time the protocol can also issue more debt (priced at $1) to encourage users to borrow ZAI and sell it in the open market.
+* **When ZAI is trading below $1**, arbitrageurs can simply buy back the ZAI from the open market and redeem USDC (or other stablecoins) from the PSM, bringing the peg back to $1. If the PSM does not have enough liquidity to maintain the peg, then the protocol can recall the loans issued by the [Direct Deposit Module](direct-deposit-module-ddm.md), forcing borrowers to repay their loans in ZAI.
 
-Because in both mechanisms where ZAI is either minted using the PSM or lent using the DDM, the positions are always over collateralized, ZAI will be able to maintain it's peg at 1$.&#x20;
+Because in both mechanisms, ZAI is either minted using the PSM or lent using the DDM, and the positions are always over-collateralized, ZAI will be able to maintain its peg at $1.&#x20;
 
 Please read the [risks section](../../security/risks.md) to understand more deeply about situations when this is not the case.

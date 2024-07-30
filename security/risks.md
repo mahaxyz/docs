@@ -14,7 +14,7 @@ layout:
 
 # Risks
 
-Being a lending focused stablecoin, there are mainly two kinds of risks that the entire protocol can be exposed to and what preventive measures have been taken to protect the protocol.
+Being a lending-focused stablecoin, there are mainly two kinds of risks that the entire protocol can be exposed to and what preventive measures have been taken to protect the protocol.
 
 ***
 
@@ -29,7 +29,7 @@ Risks relating to the smart-contracts, code, frontends, infrastructure. Technica
 
 ### **Collateral Management Risks**
 
-* **Over-collateralization**: Ensuring that loans are sufficiently over-collateralized to manage market volatility. Failure in maintaining proper collateral ratios can lead to insolvency.
+* **Over-collateralization**: Ensuring that loans are sufficiently over-collateralized to manage market volatility. Failure to maintain proper collateral ratios can lead to insolvency.
 * **Collateral Liquidation**: The process of liquidating collateral in the event of loan defaults must be efficient and robust. Technical failures in liquidation mechanisms can cause system-wide issues.
 
 ### **Blockchain Risks**
@@ -98,7 +98,7 @@ Risks relating to the liquidity, incentives, governance, peg etc.. Economic risk
 ### **Systemic Risk**
 
 * **DeFi Interdependencies**: The stablecoin’s integration with other DeFi protocols can expose it to systemic risks where failures or issues in other protocols can cascade and impact the stablecoin.
-* **Global Economic Conditions**: Macro-economic events and conditions can affect the underlying assets and overall confidence in stablecoins, influencing their stability and adoption.
+* **Global Economic Conditions**: Macroeconomic events and conditions can affect the underlying assets and overall confidence in stablecoins, influencing their stability and adoption.
 
 ### Mitigation Strategies
 

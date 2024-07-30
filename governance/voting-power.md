@@ -19,26 +19,26 @@ In most cases, smaller holders will tend to lock their tokens for longer periods
 
 veMAHA is a combination of the voting power from&#x20;
 
-* **Single staking MAHA:** Users can directly stake their MAHA without any risk of impermanent loss. The max lock duration for single staking MAHA is 4 years as there's less risk with single-staking MAHA (vs LP staking)
+* **Single-staking MAHA:** Users can directly stake their MAHA without any risk of impermanent loss. The max lock duration for single-staking MAHA is 4 years as there's less risk with single-staking MAHA (vs LP staking)
 * **LP staking MAHA/ETH:** Users can add liquidity to the MAHA/ETH liquidity pool on Curve. Due to the risks of impermanent loss, the max lock duration for LP staking is 1 year.
 
 The voting power from a pool is calculated as a function of&#x20;
 
-* **How much tokens have been locked?** The more tokens that have been staked, the more the voting power.
-* **How long has each been lock been locked for?** The longer the tokens have been staked for. the more the voting power.
-* **What is the max lock duration for the pool?** The longest duration a lock can be made for.
+* **How many tokens have been locked:** The more tokens that have been staked, the more the voting power.
+* **How long have the tokens been locked for:** The longer the tokens have been staked for, the more the voting power.
+* **What is the max lock duration for the pool:** The longest duration a lock can be made for.
 
 $$
 locked(x, maxLockDuration) = \frac{\text{totalLocked(x)}}{averageLockDuration(x) / maxLockDuration}
 $$
 
-Given the above formula, the final formula is just the sum of the voting power of single staking of MAHA (with a 4 year max lock duration) and LP staking of MAHA/ETH (with a 1 year max lock duration).
+Given the above formula, the final formula is just the sum of the voting power of single staking of MAHA (with a 4-year max lock duration) and LP staking of MAHA/ETH (with a 1-year max lock duration).
 
 $$
 \text{veMAHA}= locked(\text{MAHA, 4 years}) + locked(\text{MAHA/ETH, 1 year})
 $$
 
-The below table showcases an example of how much veMAHA a person receives, given 1000 MAHA that is locked across various intervals of time. However note that a user can choose any interval between 2 weeks to 4 years.
+The below table showcases an example of how much veMAHA a person receives, given 1000 MAHA that is locked across various intervals of time. However, note that a user can choose any interval between 2 weeks to 4 years.
 
 <table><thead><tr><th width="361">For 1000 MAHA locked</th><th>Lock Duration</th></tr></thead><tbody><tr><td>1000 veMAHA</td><td>4 years</td></tr><tr><td>250 veMAHA</td><td>1 year</td></tr><tr><td>127.4 veMAHA</td><td>6 month</td></tr><tr><td>63.7 veMAHA</td><td>3 month</td></tr><tr><td>21.23 veMAHA</td><td>1 month</td></tr><tr><td>4.79 veMAHA</td><td>1 week</td></tr></tbody></table>
 

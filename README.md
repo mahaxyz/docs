@@ -33,11 +33,11 @@ Combined with the [Direct Deposit Module](mechanics/peg-mechanics/direct-deposit
 ZAI aims to provide leverage liquidity for:
 
 * Liquid Re-staking Tokens (LRTs)
-* Bitcoin Derivatives (Lombard, Merlin BTC etc..)
+* Bitcoin Derivatives (Lombard, Merlin BTC, etc..)
 * RWAs (Real World Assets)
-* DeFi Assets (Pendle PT tokens, LP tokens, Liquid Lockers etc..)
+* Defi Assets (Pendle PT tokens, LP tokens, Liquid Lockers, etc..)
 
-ZAI is primarily a lending-focused stablecoin. Whilst it is pegged at $1 it is not really focused to be used as a means of payment nor as a means of holding wealth. It is designed specifically to allow users to allow themselves to leverage on various assets and yields (see [use-cases](mechanics/use-cases.md)).
+ZAI is primarily a lending-focused stablecoin. Whilst it is pegged at $1, it is not really focused on being used as a means of payment nor as a means of holding wealth. It is designed specifically to allow users to allow themselves to leverage various assets and yields (see [use-cases](mechanics/use-cases.md)).
 
 ## Key Features <a href="#key-features" id="key-features"></a>
 
@@ -46,5 +46,5 @@ These are the key features that make ZAI particularly unique from other stableco
 * **Strong Peg Mechanics:** With the help of the [Peg Stability Module](mechanics/peg-mechanics/peg-stablility-module-psm.md), ZAI is kept at a peg of $1 with a collateral basket consisting of various stablecoins.
 * **Instant Lending Liquidity:** The ZAI [Direct Deposit Module](mechanics/peg-mechanics/direct-deposit-module-ddm.md) allows supplies ZAI to various lending protocols to allow users to borrow ZAI as debt with their assets as collateral. Users can then use the ZAI to either leverage or de-risk from their collateral.
 * **Strong Incentive Loops:** Revenue generated from the protocol is redirected back to stakers and LPs, which creates a strong feedback loop to further create more liquidity and more incentives. See [Revenue & Liquidity Incentives](mechanics/liquidity-incentives.md).
-* **Safety Pool for any bad debt**: A [safety pool](mechanics/safety-pool.md) is designed to allow the protocol to cover any kinds of bad debt that might occur when borrowing ZAI against different kinds of collateral.
-* **Minimalistic Design:** The entire stablecoin design including the core modules fit in less than 700 lines of code.
+* **Safety Pool for Any Bad Debt**: A [safety pool](mechanics/safety-pool.md) is designed to allow the protocol to cover any kind of bad debt that might occur when borrowing ZAI against different kinds of collateral.
+* **Minimalistic Design:** The entire stablecoin design, including the core modules, fits in less than 700 lines of code.
