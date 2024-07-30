@@ -27,6 +27,14 @@ This table contains a list of the core addresses deployed from the [https://gith
 | ProxyAdmin                  | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
 | SafetyPool Zap              | [0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424](https://etherscan.io/address/0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424) | Used to zap into the safety pool.                               |
 
+### Staking Pools <a href="#layer-2-addresses" id="layer-2-addresses"></a>
+
+These are the addresses of the various staking pools.
+
+| Contract Name             | Address                                                                                                               | Comments                                  |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| ZAI / FRAXBP Staking Pool | [0x6900066d9f8df0bfaf1e25ef89c0453e8e12373d](https://etherscan.io/address/0x6900066d9f8df0bfaf1e25ef89c0453e8e12373d) | The ZAI/FRAXBP Liquidity Pool on Curve.fi |
+
 ### Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
 The protocol leverages the [connext bridge](https://www.connext.network/) to enable features such as native restaking, cross-chain bridging, and cross-chain governance.
