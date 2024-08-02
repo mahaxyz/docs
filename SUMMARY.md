@@ -37,3 +37,4 @@
 * [Forums](http://discuss.maha.xyz/)
 * [Github](https://github.com/mahaxyz)
 * [Dashbaord](https://dune.com/mahaxyz)
+* [DefiLlama](https://defillama.com/protocol/maha.xyz#information)
