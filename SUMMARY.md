@@ -11,6 +11,7 @@
   * [Direct Deposit Module (DDM)](mechanics/peg-mechanics/direct-deposit-module-ddm.md)
 * [Liquidity Incentives](mechanics/liquidity-incentives.md)
 * [Safety Pool](mechanics/safety-pool.md)
+* [Native Re-staking](mechanics/native-re-staking.md)
 * [Use Cases](mechanics/use-cases.md)
 
 ## Governance
