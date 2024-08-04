@@ -16,6 +16,10 @@ layout:
 
 Being a lending-focused stablecoin, there are mainly two kinds of risks that the entire protocol can be exposed to and what preventive measures have been taken to protect the protocol.
 
+{% hint style="danger" %}
+Please note that with any protocol there are always risks associated with using it. Do not put your life savings into the protocol. Always DYOR (do your own research).
+{% endhint %}
+
 ***
 
 ## 1. Technical Risks
