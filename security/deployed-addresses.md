@@ -15,6 +15,8 @@ layout:
 
 # Deployed Addresses
 
+## Core Protocol Addresses
+
 This table contains a list of the core addresses deployed from the [https://github.com/mahaxyz/contracts](https://github.com/mahaxyz/contracts) repository
 
 | Contract Name               | Address                                                                                                               | Comments                                                        |
@@ -27,7 +29,7 @@ This table contains a list of the core addresses deployed from the [https://gith
 | ProxyAdmin                  | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
 | SafetyPool Zap              | [0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424](https://etherscan.io/address/0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424) | Used to zap into the safety pool.                               |
 
-### Staking Pools <a href="#layer-2-addresses" id="layer-2-addresses"></a>
+## Staking Pools <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
 These are the addresses of the various staking pools.
 
@@ -35,7 +37,13 @@ These are the addresses of the various staking pools.
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | ZAI / FRAXBP Staking Pool | [0x6900066d9f8df0bfaf1e25ef89c0453e8e12373d](https://etherscan.io/address/0x6900066d9f8df0bfaf1e25ef89c0453e8e12373d) | The ZAI/FRAXBP Liquidity Pool on Curve.fi |
 
-### Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
+## Governance/Security Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
+
+These are the addresses of the various govenrance-related or security-related addresses.
+
+<table><thead><tr><th width="134">Network</th><th width="156">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Ethereum</td><td>5-day Timelock</td><td>0x690002da1f2d828d72aa89367623df7a432e85a9</td></tr><tr><td>Ethereum</td><td>Proxy Admin</td><td>0x6900064e7a3920c114e25b5fe4780f26520e3231</td></tr><tr><td>Arbitrum</td><td>5-day Timelock</td><td>0x690005544ba364a53dcc9e8d81c9ce1e90018ab7</td></tr><tr><td>Arbitrum</td><td>Proxy Admin</td><td>0x69000c978701fc4427d4baf749f10a5cec582863</td></tr></tbody></table>
+
+## Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
 The protocol leverages the [connext bridge](https://www.connext.network/) to enable features such as native restaking, cross-chain bridging, and cross-chain governance.
 
