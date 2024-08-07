@@ -29,6 +29,16 @@ This table contains a list of the core addresses deployed from the [https://gith
 | ProxyAdmin                  | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
 | SafetyPool Zap              | [0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424](https://etherscan.io/address/0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424) | Used to zap into the safety pool.                               |
 
+## Direct Deposit Modules <a href="#layer-2-addresses" id="layer-2-addresses"></a>
+
+These addresses manage the [direct deposit module](deployed-addresses.md#layer-2-addresses), which funds various vaults with freshly minted ZAI.
+
+| Contract Name  | Address                                                                                                                    | Comments                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| DDHub          | [0x51a021e3B7874d451347a56152C47136593b6740](https://etherscan.io/address/0x51a021e3B7874d451347a56152C47136593b6740)      | Direct Deposit module that mints ZAI to be used for lending                               |
+| DDMetaMorpho   | [0xe8aBC60984489C842EF9B2aDF3aF066DD260744B](https://etherscan.io/address/0xe8abc60984489c842ef9b2adf3af066dd260744b#code) | Direct Deposit MetaMorpho Pool that uses te minted ZAI to supply into a MetaMorpho vault. |
+| DDOperatorPlan | [0xf9759013B0114915dC1BC1184f72830a999f4111](https://etherscan.io/address/0xf9759013B0114915dC1BC1184f72830a999f4111)      | A simple operator plan that sets the target on the MetaMorpho vaults                      |
+
 ## Staking Pools <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
 These are the addresses of the various staking pools.
