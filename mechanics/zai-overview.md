@@ -16,7 +16,7 @@ layout:
 # ZAI Overview
 
 {% hint style="info" %}
-The ZAI Stablecoin is currently deployed at: [0x69000405f9dce69bd4cbf4f2865b79144a69bfe0](https://etherscan.io/address/0x69000405f9dce69bd4cbf4f2865b79144a69bfe0)
+The ZAI Stablecoin is currently deployed at: [0x69000405f9dce69bd4cbf4f2865b79144a69bfe0](https://etherscan.io/token/0x69000405f9DcE69BD4Cbf4f2865b79144A69BFE0)
 {% endhint %}
 
 **ZAI (USDz)** is a decentralized stablecoin within the MAHA ecosystem designed to maintain a 1:1 peg with the US Dollar (USD). ZAI is a highly scalable and over-collateralized stablecoin that can be used to leverage against crypto-native assets.
