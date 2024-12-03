@@ -43,11 +43,11 @@ These addresses manage the [direct deposit module](deployed-addresses.md#layer-2
 
 These are the addresses of the various staking pools.
 
-| Contract Name                | Address                                                                                                               | Comments                                                                                                                         |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| ZAI/USDC Curve Staking Pool  | [0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa](https://etherscan.io/address/0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa) | The staking pool for the [ZAI/USDC Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-229/deposit) on Curve.fi  |
-| ZAI/MAHA Curve Staking Pool  | [0x237efE587f2cB44597063DC8403a4892a60A5a4f](https://etherscan.io/address/0x237efE587f2cB44597063DC8403a4892a60A5a4f) | The staking pool for the [ZAI/MAHA Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-twocrypto-54/deposit) on Curve.fi   |
-| ZAI/sUSDz Curve Staking Pool | [0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40](https://etherscan.io/address/0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40) | The staking pool for the [ZAI/sUSDz Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-230/deposit) on Curve.fi |
+| Contract Name               | Address                                                                                                               | Comments                                                                                                                        |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ZAI/USDC Curve Staking Pool | [0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa](https://etherscan.io/address/0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa) | The staking pool for the [ZAI/USDC Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-229/deposit) on Curve.fi |
+| ZAI/MAHA Curve Staking Pool | [0x237efE587f2cB44597063DC8403a4892a60A5a4f](https://etherscan.io/address/0x237efE587f2cB44597063DC8403a4892a60A5a4f) | The staking pool for the [ZAI/MAHA Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-twocrypto-54/deposit) on Curve.fi  |
+| ZAI/sZAI Curve Staking Pool | [0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40](https://etherscan.io/address/0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40) | The staking pool for the [ZAI/sZAI Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-230/deposit) on Curve.fi |
 
 ## Governance/Security Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
