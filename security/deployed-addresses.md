@@ -19,15 +19,14 @@ layout:
 
 This table contains a list of the core addresses deployed from the [https://github.com/mahaxyz/contracts](https://github.com/mahaxyz/contracts) repository
 
-| Contract Name               | Address                                                                                                               | Comments                                                        |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| MAHA Token (MAHA)           | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)   | The governance token                                            |
-| ZAI Token (ZAI)             | [0x69000dFD5025E82f48Eb28325A2B88a241182CEd](https://etherscan.io/token/0x69000dFD5025E82f48Eb28325A2B88a241182CEd)   | The USD stablecoin                                              |
-| Peg Stability Module (USDC) | [0x69000052a82e218ccb61fe6e9d7e3f87b9c5916f](https://etherscan.io/address/0x69000052a82e218ccb61fe6e9d7e3f87b9c5916f) | Used to mint ZAI with USDC collateral                           |
-| SafetyPool (sUSDZ)          | [0x69000e468f7f6d6f4ed00cf46f368acdac252553](https://etherscan.io/address/0x69000e468f7f6d6f4ed00cf46f368acdac252553) | Safety Pool used to stake ZAI to protect against bad debt       |
-| Timelock                    | [0x690002da1f2d828d72aa89367623df7a432e85a9](https://etherscan.io/address/0x690002da1f2d828d72aa89367623df7a432e85a9) | All protocol ownership rests in this timelock                   |
-| ProxyAdmin                  | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
-| SafetyPool Zap              | [0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424](https://etherscan.io/address/0x737Ce76225d5d0a1B696cdEAeB9Fa0eCbC8EF424) | Used to zap into the safety pool.                               |
+| Contract Name                | Address                                                                                                               | Comments                                                        |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| MAHA Token (MAHA)            | [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)   | The governance token                                            |
+| ZAI Token (ZAI)              | [0x69000dFD5025E82f48Eb28325A2B88a241182CEd](https://etherscan.io/token/0x69000dFD5025E82f48Eb28325A2B88a241182CEd)   | The USD stablecoin                                              |
+| ZAI Staking (sZAI)           | [0x69000dFD5025E82f48Eb28325A2B88a241182CEd](https://etherscan.io/address/0x69000dFD5025E82f48Eb28325A2B88a241182CEd) | Safety Pool used to stake ZAI to protect against bad debt       |
+| Peg Stability Module (sUSDe) | [0x7DCdE153e4cACe9Ca852590d9654c7694388Db54](https://etherscan.io/address/0x7DCdE153e4cACe9Ca852590d9654c7694388Db54) | Used to mint ZAI with sUSDe collateral                          |
+| Timelock                     | [0x690002da1f2d828d72aa89367623df7a432e85a9](https://etherscan.io/address/0x690002da1f2d828d72aa89367623df7a432e85a9) | All protocol ownership rests in this timelock                   |
+| ProxyAdmin                   | [0x6900064e7a3920c114e25b5fe4780f26520e3231](https://etherscan.io/address/0x6900064e7a3920c114e25b5fe4780f26520e3231) | Used as the admin for all deployed proxies. Owned by governance |
 
 ## Direct Deposit Modules <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
@@ -35,7 +34,7 @@ These addresses manage the [direct deposit module](deployed-addresses.md#layer-2
 
 | Contract Name  | Address                                                                                                               | Comments                                                                                  |
 | -------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| DDHub          | [0x51a021e3B7874d451347a56152C47136593b6740](https://etherscan.io/address/0x51a021e3B7874d451347a56152C47136593b6740) | Direct Deposit module that mints ZAI to be used for lending                               |
+| DDHub          | [0xD14688cb29dd1925d2C26F3B0F08Fd2c85db54bF](https://etherscan.io/address/0xD14688cb29dd1925d2C26F3B0F08Fd2c85db54bF) | Direct Deposit module that mints ZAI to be used for lending                               |
 | DDMetaMorpho   | [0xe8aBC60984489C842EF9B2aDF3aF066DD260744B](https://etherscan.io/address/0xe8abc60984489c842ef9b2adf3af066dd260744b) | Direct Deposit MetaMorpho Pool that uses te minted ZAI to supply into a MetaMorpho vault. |
 | DDOperatorPlan | [0xf9759013B0114915dC1BC1184f72830a999f4111](https://etherscan.io/address/0xf9759013B0114915dC1BC1184f72830a999f4111) | A simple operator plan that sets the target on the MetaMorpho vaults                      |
 
@@ -45,9 +44,9 @@ These are the addresses of the various staking pools.
 
 | Contract Name               | Address                                                                                                               | Comments                                                                                                                        |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ZAI/USDC Curve Staking Pool | [0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa](https://etherscan.io/address/0x154F52B347D8E48b8DbD8D8325Fe5bb45AAdCCDa) | The staking pool for the [ZAI/USDC Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-229/deposit) on Curve.fi |
-| ZAI/MAHA Curve Staking Pool | [0x237efE587f2cB44597063DC8403a4892a60A5a4f](https://etherscan.io/address/0x237efE587f2cB44597063DC8403a4892a60A5a4f) | The staking pool for the [ZAI/MAHA Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-twocrypto-54/deposit) on Curve.fi  |
-| ZAI/sZAI Curve Staking Pool | [0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40](https://etherscan.io/address/0xeF12d1614eb0e2bC8E8884c7d4C7f15E34164F40) | The staking pool for the [ZAI/sZAI Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-230/deposit) on Curve.fi |
+| ZAI/USDC Curve Staking Pool | [0xdFB06C4c562Bcc810C112FBAC99c59C2856b86D1](https://etherscan.io/address/0xdFB06C4c562Bcc810C112FBAC99c59C2856b86D1) | The staking pool for the [ZAI/USDC Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-229/deposit) on Curve.fi |
+| ZAI/MAHA Curve Staking Pool | [0xE2EbBf803d0199A5A26108bA36FBAc366b201Be1](https://etherscan.io/address/0xE2EbBf803d0199A5A26108bA36FBAc366b201Be1) | The staking pool for the [ZAI/MAHA Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-twocrypto-54/deposit) on Curve.fi  |
+| ZAI/sZAI Curve Staking Pool | [0xfDAeB792FF19e7bd4f7ED5d6ce2ef7925d002A19](https://etherscan.io/address/0xfDAeB792FF19e7bd4f7ED5d6ce2ef7925d002A19) | The staking pool for the [ZAI/sZAI Liquidity Pool](https://curve.fi/#/ethereum/pools/factory-stable-ng-230/deposit) on Curve.fi |
 
 ## Governance/Security Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
@@ -57,7 +56,7 @@ These are the addresses of the various govenrance-related or security-related ad
 
 ## Cross-Chain Addresses <a href="#layer-2-addresses" id="layer-2-addresses"></a>
 
-The protocol leverages the [connext bridge](https://www.connext.network/) to enable features such as native restaking, cross-chain bridging, and cross-chain governance.
+The protocol leverages the [LayerZero Bridge](https://layerzero.network/) to enable features such as native restaking, cross-chain bridging, and cross-chain governance.
 
 {% tabs %}
 {% tab title="ZAI" %}
