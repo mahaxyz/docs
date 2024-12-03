@@ -19,7 +19,7 @@ layout:
 The ZAI Stablecoin is currently deployed at: [0x69000405f9dce69bd4cbf4f2865b79144a69bfe0](https://etherscan.io/token/0x69000405f9DcE69BD4Cbf4f2865b79144A69BFE0)
 {% endhint %}
 
-**ZAI (USDz)** is a decentralized stablecoin within the MAHA ecosystem designed to maintain a 1:1 peg with the US Dollar (USD). ZAI is a highly scalable and over-collateralized stablecoin that can be used to leverage against crypto-native assets.
+**ZAI (ZAI)** is a decentralized stablecoin within the MAHA ecosystem designed to maintain a 1:1 peg with the US Dollar (USD). ZAI is a highly scalable and over-collateralized stablecoin that can be used to leverage against crypto-native assets.
 
 ZAI aims to provide stability and liquidity without relying on traditional liquidation mechanisms or stability pools. Users can mint ZAI against traditional stablecoins, such as USDC and DAI, and leverage ZAI in various DeFi protocols and liquidity pools.
 
@@ -31,14 +31,14 @@ To support the growth of the ZAI stablecoin without the need for heavy inflation
 
 This is why ZAI mainly caters to two kinds of users.
 
-* **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
-* **Leverage Users / Borrowers:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
+- **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
+- **Leverage Users / Borrowers:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
 
-***
+---
 
 ## Open Source & Decentralized&#x20;
 
-ZAI is a decentralized stablecoin, and the source code is completely open-source (Under the GPL-3 license).  The source code for ZAI can be found in the below Github repo:
+ZAI is a decentralized stablecoin, and the source code is completely open-source (Under the GPL-3 license). The source code for ZAI can be found in the below Github repo:
 
 {% embed url="https://github.com/mahaxyz/contracts" %}
 

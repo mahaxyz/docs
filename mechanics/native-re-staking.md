@@ -23,13 +23,12 @@ The concept of native re-staking was [first introduced by the Renzo Protocol](ht
 Native re-staking significantly eases the user experience for minting ZAI by abstracting the complexities involved in depositing USDC on layer 2 networks and bridging to the mainnet. The advantages of native restaking are as follows:
 
 1. **User-Friendly Process**: By abstracting the technical complexities, users can easily mint ZAI without needing in-depth knowledge of cross-chain mechanics.
-2. **Enhanced Liquidity**: Users can gain immediate access to $USDz tokens on L2 networks, providing more liquidity options and faster transactions.
+2. **Enhanced Liquidity**: Users can gain immediate access to $ZAI tokens on L2 networks, providing more liquidity options and faster transactions.
 3. **Seamless Interoperability**: The integration with Connext and native bridges ensures smooth and secure asset transfers between L2 and mainnet.
 
 ## **How Native Re-Staking Simplifies ZAI Minting**
 
-* **User Interaction**: Users initiate the process by depositing USDC into the xZaiDeposit contract on a layer 2 (L2) network.
-* **Minting $USDZ**: The [L2DepositCollateral](https://github.com/mahaxyz/contracts/blob/master/contracts/periphery/restaking/connext/L2DepositCollateral.sol) contract mints $USDz tokens, which are pegged to $USDz on mainnet and represent the user's deposit on the L2 network. The minted $USDZ tokens are XERC20 tokens and are sent back to the user, providing immediate liquidity on the L2 network.
-* **Bridge Trigger**: Periodically, the L2DepositCollateral contract triggers a bridge transaction through Connext or through the native bridge. This action sends all deposited USDC to the [L1BridgeCollateral](https://github.com/mahaxyz/contracts/blob/master/contracts/periphery/restaking/connext/L1BridgeCollateral.sol) contract on the Ethereum mainnet.
-* **Bridge Deposit & Minting**: The L1BridgeCollateral contract's bridgeDeposit() function processes the USDC received on the mainnet. The [Peg Stability Module](peg-mechanics/peg-stablility-module-psm.md) then handles the USDC, minting ZAI tokens that are sent to the Lockbox contract to be wrapped into $USDz.
-
+- **User Interaction**: Users initiate the process by depositing USDC into the xZaiDeposit contract on a layer 2 (L2) network.
+- **Minting $USDZ**: The [L2DepositCollateral](https://github.com/mahaxyz/contracts/blob/master/contracts/periphery/restaking/connext/L2DepositCollateral.sol) contract mints $ZAI tokens, which are pegged to $ZAI on mainnet and represent the user's deposit on the L2 network. The minted $USDZ tokens are XERC20 tokens and are sent back to the user, providing immediate liquidity on the L2 network.
+- **Bridge Trigger**: Periodically, the L2DepositCollateral contract triggers a bridge transaction through Connext or through the native bridge. This action sends all deposited USDC to the [L1BridgeCollateral](https://github.com/mahaxyz/contracts/blob/master/contracts/periphery/restaking/connext/L1BridgeCollateral.sol) contract on the Ethereum mainnet.
+- **Bridge Deposit & Minting**: The L1BridgeCollateral contract's bridgeDeposit() function processes the USDC received on the mainnet. The [Peg Stability Module](peg-mechanics/peg-stablility-module-psm.md) then handles the USDC, minting ZAI tokens that are sent to the Lockbox contract to be wrapped into $ZAI.
