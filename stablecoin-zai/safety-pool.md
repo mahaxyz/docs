@@ -1,20 +1,28 @@
 ---
 description: >-
-  The safety pool is a staking pool for ZAI that is used to protect the protocol
-  against bad debt.
+  The staking pool is a pool for ZAI that accumulates all the yield from the
+  protocol and is used to pay off any bad debt.
 ---
 
-# Safety Pool
+# ZAI Staking (sZAI)
 
 One of the major risks of any lending market is the accumulation of bad debt in the protocol. In this document we describe the Safety Pool, a ERC4626 vault that is used to cover any bad debt that might accumulate in the protocol.
 
 {% hint style="warning" %}
-The Safety Pool is only used as a means of last resort and works like an insurance fund where depositors stake their ZAI in return for protocol revenue and MAHA emissions; Staked ZAI can be slashed by the governance to write off any bad debt that the protocol has incurred.
+Slashing in the Safety Pool is only used as a means of last resort and works like an insurance fund where depositors stake their ZAI in return for protocol revenue and MAHA emissions; Staked ZAI can be slashed by the governance to write off any bad debt that the protocol has incurred.
 {% endhint %}
 
 {% hint style="info" %}
-Users who participate in the Safety Pool and have staked MAHA earn a boost on all their rewards of upto 5x! Read more about [staking boosts](../governance/staking-boosts.md).
+Users who participate in the Safety Pool and have staked MAHA earn a boost on all their rewards of upto 5x! Read more about [staking boosts](../governance-maha/staking-boosts.md).
 {% endhint %}
+
+## Where does the yield come from?
+
+The yield for the Safety Pool primarily originates from the collateral backing ZAI, specifically through SUSD.
+
+## How does the yield get distributed?
+
+The yield for the Safety Pool comes from Ethena's side, where it is distributed every 8 hours. We then collect this yield every 24 hours and distribute it back to ZAI stakers.
 
 ## What is Bad Debt?
 
@@ -28,7 +36,7 @@ Protecting bad debt has been attempted by many different DeFi lending protocols 
 
 While each implementation has its pros and cons, the ZAI Safety Pool takes some of the best ideas of the various models mentioned above and builds a single-staking vault that is built more like a DeFi insurance vault.
 
-## Why a Safety Pool?
+## Why a Staking Pool?
 
 Like any lending market, one of the biggest risks is the accumulation of bad debt. While in most cases the bad debt can be prevented with effective risk management, it's not always the case; Especially in situations of a flash crash or a hack, liquidations might not happen quick enough to safely clear off any unhealthy positions in the protocol.
 
@@ -42,7 +50,7 @@ This is why, assuming that no matter how safe risk management strategies tend to
 
 Tackling this efficiently will further allow the protocol to scale and accept assets with higher risk profiles and possibly generate more fees.
 
-## How does the Safety Pool work?
+## How does ZAI Staking work?
 
 Similar to the concept of insurance vaults, users can stake their ZAI into the safety pool in return for a share in the portion of revenue and a share of MAHA emissions (in return for the risk of being slashed).
 
@@ -54,7 +62,7 @@ As documented above, we have made a few design decisions when building the Safet
 
 1. **A 10-day withdrawal period**: 10 days lets the governance make a decision on the debt repayments before liquidity is withdrawn.
 2. **Rewards instead of an insurance/reserve fund**: Providing rewards is a much more scalable way of growing the safety pool than maintaining an insurance/reserve fund.&#x20;
-3. **Multiple rewards to compensate for the slashing risk:** Since users who deposit into the safety pool go through a risk of slashing, there needs to be enough rewards to incentivize such a high-risk activity**.** Rewards in the form of revenue help the safety pool scale along with the protocol.
+3. **Multiple rewards to compensate for the slashing risk:** Since users who deposit into the safety pool go through a risk of slashing, there needs to be enough rewards to incentivize such a high-risk activit&#x79;**.** Rewards in the form of revenue help the safety pool scale along with the protocol.
 4. **Designed as an ERC4626 vault**: The ERC4626 standard allows for simplicity in the safety pool design and allows for users to easily move their position across other wallets or allow other protocols to directly integrate with the safety pool.
 
 ## Example Scenarios

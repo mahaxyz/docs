@@ -21,7 +21,7 @@ There are many reasons why a user would want to buy, hold, and stake the MAHA to
 * **Staking Boosts**: Users who stake MAHA get a boost on all their rewards (see[ staking boosts](staking-boosts.md)).
 * **Exclusive Access**: Holding the MAHA token and staking it gives exclusive access within the community.
 
-To learn more about MAHA's tokenomics, view [Distribution & Inflation](distribution.md).
+To learn more about MAHA's tokenomics, view [Distribution & Inflation](../governance/distribution.md).
 
 {% embed url="https://youtu.be/TUk17M6Ww-I" %}
 Everything you need to know about MAHA.

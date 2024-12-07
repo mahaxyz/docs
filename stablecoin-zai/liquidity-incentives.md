@@ -20,12 +20,12 @@ Liquidity is one of the protocol's key aspects. Without liquidity, the ecosystem
 Within the entire protocol, there are 3-4 kinds of incentives given to liquidity providers.
 
 1. **MAHA Emissions:** These are emissions directly in the form of MAHA tokens that can be claimed by liquidity providers at any time.&#x20;
-2. **Protocol Revenue:** Over 60-80% of the protocol revenue is given back to liquidity providers in the form of either ETH or USDC. See [revenue share](../governance/revenue-share.md).
-3. **Points & Airdrop:** More information about an airdrop will be [coming soon](../governance/points-and-airdrop.md) 👀.
+2. **Protocol Revenue:** Over 60-80% of the protocol revenue is given back to liquidity providers in the form of either ETH or USDC. See [revenue share](../governance-maha/revenue-share.md).
+3. **Points & Airdrop:** More information about an airdrop will be [coming soon](../governance-maha/points-and-airdrop.md) 👀.
 4. **Partner Points**: Points and incentives given to partner protocols for integrating or using ZAI within their ecosystem.
 
 {% hint style="info" %}
-Users who have staked MAHA get a boost in all their liquidity incentives of up-to 5x! Read more about [staking boosts](../governance/staking-boosts.md).
+Users who have staked MAHA get a boost in all their liquidity incentives of up-to 5x! Read more about [staking boosts](../governance-maha/staking-boosts.md).
 {% endhint %}
 
 Staking in various pools comes with its own risks and rewards. See [risks](../security/risks.md) for more details.
@@ -71,7 +71,7 @@ This pair could be subject to impermanent loss as both assets (MAHA & ETH) in th
 {% endhint %}
 
 {% hint style="success" %}
-Staking in this pool will increase your [staking boosts](../governance/staking-boosts.md)! 🎉
+Staking in this pool will increase your [staking boosts](../governance-maha/staking-boosts.md)! 🎉
 {% endhint %}
 
 ### MAHA Staking
@@ -83,5 +83,5 @@ Stakers in this pool also earn voting power, which is used in governance and ear
 There is no withdrawal delay when unstaking however every stake has an unlock time that needs to be passed before a deposit can be unstaked.&#x20;
 
 {% hint style="success" %}
-Staking in this pool will increase your [staking boosts](../governance/staking-boosts.md)! 🎉 and there is no impermanent loss in interacting with this pool.
+Staking in this pool will increase your [staking boosts](../governance-maha/staking-boosts.md)! 🎉 and there is no impermanent loss in interacting with this pool.
 {% endhint %}

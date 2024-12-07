@@ -31,15 +31,15 @@ To support the growth of the ZAI stablecoin without the need for heavy inflation
 
 This is why ZAI mainly caters to two kinds of users.
 
-- **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
-- **Leverage Users / Borrowers:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
+* **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
+* **Leverage Users / Borrowers:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
 
----
+***
 
-## Open Source & Decentralized&#x20;
+## Open Source & Decentralized
 
 ZAI is a decentralized stablecoin, and the source code is completely open-source (Under the GPL-3 license). The source code for ZAI can be found in the below Github repo:
 
 {% embed url="https://github.com/mahaxyz/contracts" %}
 
-ZAI is completely decentralized, with ownership of the token controlled by the [MAHA governance](../governance/maha-overview.md).
+ZAI is completely decentralized, with ownership of the token controlled by the [MAHA governance](../governance-maha/maha-overview.md).
