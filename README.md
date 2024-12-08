@@ -24,10 +24,6 @@ MAHA (previously known as MahaDAO) is a community-powered decentralized organiza
 
 At the heart of the ecosystem are two main tokens - MAHA and ZAI.
 
-## Why MAHA?
-
-To organise ideas around the DAO and the policies that&#x20;
-
 ## Why ZAI?
 
 Unlike most complicated stablecoin designs out there, ZAI is incredibly minimalistic _(the_ [_core modules_](https://github.com/mahaxyz/contracts/tree/master/contracts/core) _is less than 700 lines of code)_, highly scalable and decentralized.
