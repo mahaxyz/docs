@@ -1,5 +1,6 @@
 ---
 description: This page details a simple roadmap for the MAHA protocol.
+hidden: true
 ---
 
 # Roadmap

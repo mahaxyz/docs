@@ -5,7 +5,7 @@ description: This section briefly summaries the MAHA token.
 # MAHA Overview
 
 {% hint style="info" %}
-The MAHA Token is currently deployed over at [0x745407c86df8db893011912d3ab28e68b62e49b0](https://etherscan.io/token/0x745407c86df8db893011912d3ab28e68b62e49b0)
+The MAHA Token is currently deployed on Base at [0x554bba833518793056CF105E66aBEA330672c0dE](https://basescan.org/address/0x554bba833518793056CF105E66aBEA330672c0dE)
 {% endhint %}
 
 MAHA is the governance and utility token that regulates the protocol, the MAHA community, and other products governed by the DAO.

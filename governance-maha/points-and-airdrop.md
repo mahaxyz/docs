@@ -1,5 +1,6 @@
 ---
 description: This section explains how points and an airdrop of MAHA is given out.
+hidden: true
 ---
 
 # Points & Airdrop 🎉
