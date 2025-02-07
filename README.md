@@ -24,27 +24,59 @@ MAHA (previously known as MahaDAO) is a community-powered decentralized organiza
 
 At the heart of the ecosystem are two main tokens - MAHA and ZAI.
 
-## Why ZAI?
+## What is MAHA?
 
-Unlike most complicated stablecoin designs out there, ZAI is incredibly minimalistic _(the_ [_core modules_](https://github.com/mahaxyz/contracts/tree/master/contracts/core) _is less than 700 lines of code)_, highly scalable and decentralized.
+MAHA is the governance and utility token that regulates the protocol, the MAHA community, and other products governed by the DAO.
 
-Combined with the [Direct Deposit Module](stablecoin-zai/peg-mechanics/direct-deposit-module-ddm.md) and the [Peg Stability Module](stablecoin-zai/peg-mechanics/), ZAI can be used to instantly leverage on these assets and able to scale to millions if not billions of dollars of liquidity quickly.
+MAHA token holders can vote to allocate MAHA towards grants, strategic partnerships, governance initiatives, additional liquidity mining pools, and a host of other programs. The tokenomics are designed to promote self-sustaining community interest, developer engagement, and ecosystem adoption.
 
-ZAI aims to provide leverage liquidity for:
+* **Vote on Governance Decisions** – Influence protocol parameters, partnerships, and incentive allocations.
+* **Earn Revenue Share** – MAHA LP stakers get a portion of the protocol’s earnings.
+* **Boost Your Rewards** – Staking MAHA gives a boost to your rewards across various programs.
+* **Exclusive Access** – Gain early access to governance proposals and yield opportunities.
 
-* Liquid Re-staking Tokens (LRTs)
-* Bitcoin Derivatives (Lombard, Merlin BTC, etc..)
-* RWAs (Real World Assets)
-* Defi Assets (Pendle PT tokens, LP tokens, Liquid Lockers, etc..)
+## Governance&#x20;
 
-ZAI is primarily a lending-focused stablecoin. Whilst it is pegged at $1, it is not really focused on being used as a means of payment nor as a means of holding wealth. It is designed specifically to allow users to allow themselves to leverage various assets and yields (see [use-cases](stablecoin-zai/use-cases.md)).
+The MAHA token isn’t just about holding—it’s about using it to shape the ecosystem. Here’s how MAHA governance works:
 
-## Key Features <a href="#key-features" id="key-features"></a>
+1. **Protocol Parameters** – Vote on risk models, collateral types, fees, and operational budgets for JeremyAI.
+2. **Incentive Allocation** – Direct liquidity mining rewards, staking boosts, and AI-driven incentives.
+3. **Strategic Partnerships** – Support integrations with protocols like Pendle, Ethena, and AI platforms like DeepSeek.
+4. **Safety Pool Management** – Help govern slashing parameters and bad debt recovery strategies.
 
-These are the key features that make ZAI particularly unique from other stablecoins out there.
+### Introducing JeremyAI
 
-* **Strong Peg Mechanics:** With the help of the [Peg Stability Module](stablecoin-zai/peg-mechanics/peg-stablility-module-psm.md), ZAI is kept at a peg of $1 with a collateral basket consisting of various stablecoins.
-* **Instant Lending Liquidity:** The ZAI [Direct Deposit Module](stablecoin-zai/peg-mechanics/direct-deposit-module-ddm.md) allows supplies ZAI to various lending protocols to allow users to borrow ZAI as debt with their assets as collateral. Users can then use the ZAI to either leverage or de-risk from their collateral.
-* **Strong Incentive Loops:** Revenue generated from the protocol is redirected back to stakers and LPs, which creates a strong feedback loop to further create more liquidity and more incentives. See [Revenue & Liquidity Incentives](stablecoin-zai/liquidity-incentives.md).
-* **Safety Pool for Any Bad Debt**: A [safety pool](stablecoin-zai/safety-pool.md) is designed to allow the protocol to cover any kind of bad debt that might occur when borrowing ZAI against different kinds of collateral.
-* **Minimalistic Design:** The entire stablecoin design, including the core modules, fits in less than 700 lines of code.
+JeremyAI (@jpowellxbt) is changing the game by bringing automation and intelligence to DeFi governance. Instead of relying on manual votes for routine decisions, MAHA holders can leverage AI-powered insights to optimize incentives and maximize efficiency.
+
+#### What JeremyAI Does:
+
+* **Automates Incentives** – Allocates MAHA emissions dynamically to maximize returns and liquidity impact.
+* **Recommends Strategies** – Publishes AI-driven reports with data-backed governance proposals.
+* **Ensures Transparency** – All transactions and decisions are executed on-chain for full auditability.
+
+**Example:**
+
+Say there’s a proposal to allocate MAHA to a new Pendle PT pool. JeremyAI runs the numbers—analyzing potential ROI, liquidity impact, and user demand—so voters make decisions based on real insights rather than guesswork.
+
+### ZAI: The Lending-Focused Stablecoin
+
+ZAI is the lending-focused stablecoin that powers MAHA’s DeFi ecosystem. Unlike traditional stablecoins, ZAI is optimized for leverage and yield generation, enabling users to maximize their liquidity across various DeFi platforms.
+
+#### Why ZAI?
+
+* **Minimalistic & Scalable** – Designed with a lightweight architecture that scales efficiently.
+* **Strong Peg Stability** – Maintained through a Peg Stability Module with a collateral basket of stable assets.
+* **Instant Lending Liquidity** – Supplied to lending protocols for borrowing and leverage opportunities.
+* **AI-Optimized Incentives** – JeremyAI dynamically manages liquidity incentives to ensure efficient market conditions.
+
+### What’s Next?
+
+MAHA is evolving, and JeremyAI is just getting started. Here’s what’s coming next:
+
+* **Real-Time Market Analysis** – AI-driven insights that adapt to shifting DeFi conditions.
+* **Autonomous Execution** – Automated deployment of liquidity mining and incentive programs.
+* **DeFi Integration** – Soon, users will be able to interact with JeremyAI directly to find the best yield opportunities.
+
+With MAHA, ZAI, and JeremyAI, we’re building a smarter, more efficient DeFi ecosystem—one where governance is transparent, incentives are optimized, and every decision is backed by AI-driven insights.
+
+Check out **Distribution & Inflation** to know more MAHA's tokenomics

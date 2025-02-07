@@ -19,10 +19,10 @@ Liquidity is one of the protocol's key aspects. Without liquidity, the ecosystem
 
 Within the entire protocol, there are 3-4 kinds of incentives given to liquidity providers.
 
-1. **MAHA Emissions:** These are emissions directly in the form of MAHA tokens that can be claimed by liquidity providers at any time.&#x20;
-2. **Protocol Revenue:** Over 60-80% of the protocol revenue is given back to liquidity providers in the form of either ETH or USDC. See [revenue share](../governance-maha/revenue-share.md).
-3. **Points & Airdrop:** More information about an airdrop will be [coming soon](../governance-maha/points-and-airdrop.md) 👀.
-4. **Partner Points**: Points and incentives given to partner protocols for integrating or using ZAI within their ecosystem.
+1. **MAHA Emissions:** Managed entirely by **JeremyAI**, which allocates emissions to high-impact pools to ensure sustainable growth.&#x20;
+2. **Protocol Revenue:** 60-80% of revenue is distributed to liquidity providers, now optimized by AI-driven strategies.. See [revenue share](../governance-maha/revenue-share.md).
+3. **Points & Airdrop:** More information about an airdrop will be [coming soon](broken-reference)[ 👀.](#user-content-fn-1)[^1]
+4. **AI-Powered SocialFi**: Incentives are promoted across social platforms to attract targeted users.
 
 {% hint style="info" %}
 Users who have staked MAHA get a boost in all their liquidity incentives of up-to 5x! Read more about [staking boosts](../governance-maha/staking-boosts.md).
@@ -85,3 +85,5 @@ There is no withdrawal delay when unstaking however every stake has an unlock ti
 {% hint style="success" %}
 Staking in this pool will increase your [staking boosts](../governance-maha/staking-boosts.md)! 🎉 and there is no impermanent loss in interacting with this pool.
 {% endhint %}
+
+[^1]: 

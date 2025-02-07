@@ -11,7 +11,6 @@
 * [Revenue Share](governance-maha/revenue-share.md)
 * [Voting Power (veMAHA)](governance-maha/voting-power.md)
 * [Staking NFTs](governance-maha/staking.md)
-* [Points & Airdrop 🎉](governance-maha/points-and-airdrop.md)
 
 ## Stablecoin - ZAI
 
