@@ -46,7 +46,7 @@ The MAHA token isn’t just about holding—it’s about using it to shape the e
 
 ### Introducing JeremyAI
 
-JeremyAI (@jpowellxbt) is changing the game by bringing automation and intelligence to DeFi governance. Instead of relying on manual votes for routine decisions, MAHA holders can leverage AI-powered insights to optimize incentives and maximize efficiency.
+JeremyAI is changing the game by bringing automation and intelligence to DeFi governance. Instead of relying on manual votes for routine decisions, MAHA holders can leverage AI-powered insights to optimize incentives and maximize efficiency.
 
 #### What JeremyAI Does:
 
