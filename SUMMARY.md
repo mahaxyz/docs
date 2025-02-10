@@ -37,3 +37,4 @@
 * [Github](https://github.com/mahaxyz)
 * [Dashbaord](https://dune.com/mahaxyz)
 * [DefiLlama](https://defillama.com/protocol/maha.xyz#information)
+* [JeremyAI](https://jpowell.ai/)

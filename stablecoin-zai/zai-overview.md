@@ -33,7 +33,7 @@ This is why ZAI mainly caters to two kinds of users.
 
 * **Liquidity Providers:** Users who mint ZAI using stablecoins and provide liquidity to the ZAI/USDC pair across various DEXes. Liquidity providers earn MAHA rewards and fees earned from leverage borrowers.
 * **Leverage Users / Borrowers:** Users who borrow ZAI to leverage themselves across various asset classes. Borrowers pay an interest fee in ZAI which goes back to liquidity providers for providing liquidity.
-*   The feedback loop between liquidity providers and borrowers is now \*\*powered by JeremyAI\*\*, which:
+*   The feedback loop between liquidity providers and borrowers is now _**powered by JeremyAI**_, which:
 
     1\. Dynamically adjusts MAHA rewards for liquidity providers based on real-time demand.
 
